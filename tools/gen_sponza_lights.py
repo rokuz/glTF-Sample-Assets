@@ -183,8 +183,8 @@ def main() -> int:
     wmax = [rmax[j] * scale for j in range(3)]
 
     outer, inner = math.radians(30.0), math.radians(20.0)
-    sphere = make_uv_sphere(0.12, 10, 14)
-    cone = make_cone(0.45, outer, 16)
+    sphere = make_uv_sphere(0.04, 10, 14)
+    cone = make_cone(0.15, outer, 16)
     (sphere_acc, cone_acc) = add_marker_geometry(d, [sphere, cone])
     palette = [colorsys.hsv_to_rgb(k / NUM_BUCKETS, 0.9, 1.0) for k in range(NUM_BUCKETS)]
 
