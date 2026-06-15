@@ -138,6 +138,91 @@ def add_instance_streams(d, streams):
     return accs
 
 
+def add_skin_attributes(d, vert_counts):
+    """For each marker (by vertex count) emit JOINTS_0 (all bone 0) + WEIGHTS_0 (all 1.0), so the mesh
+    binds 100% to a single root bone. Returns [(joints_acc, weights_acc), ...]."""
+    n_buf, blob, out = len(d["buffers"]), bytearray(), []
+
+    def pad4():
+        while len(blob) % 4:
+            blob.append(0)
+
+    for count in vert_counts:
+        pad4(); o_j = len(blob)
+        blob += b"".join(struct.pack("<4B", 0, 0, 0, 0) for _ in range(count))  # bone 0
+        pad4(); o_w = len(blob)
+        blob += b"".join(struct.pack("<4f", 1.0, 0.0, 0.0, 0.0) for _ in range(count))  # full weight
+        bv = len(d["bufferViews"])
+        d["bufferViews"] += [
+            {"buffer": n_buf, "byteOffset": o_j, "byteLength": count * 4, "target": 34962},
+            {"buffer": n_buf, "byteOffset": o_w, "byteLength": count * 16, "target": 34962},
+        ]
+        ac = len(d["accessors"])
+        d["accessors"] += [
+            {"bufferView": bv, "componentType": 5121, "count": count, "type": "VEC4"},      # u8  JOINTS_0
+            {"bufferView": bv + 1, "componentType": 5126, "count": count, "type": "VEC4"},  # f32 WEIGHTS_0
+        ]
+        out.append((ac, ac + 1))
+    pad4()
+    d["buffers"].append({"uri": _data_uri(blob), "byteLength": len(blob)})
+    return out
+
+
+def add_identity_ibm(d):
+    """One identity MAT4 inverse-bind matrix (single bone bound at the origin); shared by all skins."""
+    blob = struct.pack("<16f", 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)
+    n_buf = len(d["buffers"])
+    bv = len(d["bufferViews"])
+    d["bufferViews"].append({"buffer": n_buf, "byteOffset": 0, "byteLength": len(blob)})
+    ac = len(d["accessors"])
+    d["accessors"].append({"bufferView": bv, "componentType": 5126, "count": 1, "type": "MAT4"})
+    d["buffers"].append({"uri": _data_uri(blob), "byteLength": len(blob)})
+    return ac
+
+
+def add_animation_streams(d, period, nseg, radius):
+    """Looping keyframes (one period): bone translation around a small XZ circle (point spheres) and
+    bone rotation a full turn about +Y (spot cones — about the apex, so the light position is fixed).
+    Returns (time_acc, sphere_translation_acc, cone_rotation_acc)."""
+    times = [period * k / nseg for k in range(nseg + 1)]
+    orbit = [(radius * math.cos(2.0 * math.pi * k / nseg), 0.0, radius * math.sin(2.0 * math.pi * k / nseg))
+             for k in range(nseg + 1)]
+    spin = []
+    for k in range(nseg + 1):
+        a = 2.0 * math.pi * k / nseg
+        spin.append((0.0, math.sin(a * 0.5), 0.0, math.cos(a * 0.5)))  # quaternion about +Y
+
+    blob = bytearray()
+
+    def pad4():
+        while len(blob) % 4:
+            blob.append(0)
+
+    n_buf = len(d["buffers"])
+    pad4(); o_t = len(blob)
+    blob += b"".join(struct.pack("<f", t) for t in times)
+    pad4(); o_s = len(blob)
+    blob += b"".join(struct.pack("<3f", *v) for v in orbit)
+    pad4(); o_c = len(blob)
+    blob += b"".join(struct.pack("<4f", *q) for q in spin)
+    bv = len(d["bufferViews"])
+    d["bufferViews"] += [
+        {"buffer": n_buf, "byteOffset": o_t, "byteLength": 4 * len(times)},
+        {"buffer": n_buf, "byteOffset": o_s, "byteLength": 12 * len(orbit)},
+        {"buffer": n_buf, "byteOffset": o_c, "byteLength": 16 * len(spin)},
+    ]
+    ac = len(d["accessors"])
+    d["accessors"] += [
+        {"bufferView": bv, "componentType": 5126, "count": len(times), "type": "SCALAR",
+         "min": [0.0], "max": [period]},
+        {"bufferView": bv + 1, "componentType": 5126, "count": len(orbit), "type": "VEC3"},
+        {"bufferView": bv + 2, "componentType": 5126, "count": len(spin), "type": "VEC4"},
+    ]
+    pad4()
+    d["buffers"].append({"uri": _data_uri(blob), "byteLength": len(blob)})
+    return ac, ac + 1, ac + 2
+
+
 def quat_from_neg_z(direction):
     """Quaternion [x, y, z, w] rotating local -Z onto the unit `direction`."""
     dot = -direction[2]
@@ -166,6 +251,11 @@ def main() -> int:
     ap.add_argument("--out", required=True)
     ap.add_argument("-n", "--num-lights", type=int, default=256)
     ap.add_argument("--seed", type=int, default=1234)
+    ap.add_argument("--animate", action="store_true",
+                    help="skin each marker to a single root bone and animate it: point spheres orbit a "
+                         "small radius, spot cones spin. Per-instance phase desyncs them with --anim-cycle.")
+    ap.add_argument("--orbit-radius", type=float, default=0.3, help="point-sphere orbit radius (animate).")
+    ap.add_argument("--anim-period", type=float, default=4.0, help="animation loop period in seconds.")
     args = ap.parse_args()
 
     rng = random.Random(args.seed)
@@ -187,6 +277,15 @@ def main() -> int:
     cone = make_cone(0.15, outer, 16)
     (sphere_acc, cone_acc) = add_marker_geometry(d, [sphere, cone])
     palette = [colorsys.hsv_to_rgb(k / NUM_BUCKETS, 0.9, 1.0) for k in range(NUM_BUCKETS)]
+
+    # Animated variant: skin each marker to one root bone (skin_attr holds its JOINTS_0/WEIGHTS_0;
+    # ibm_acc the shared identity inverse-bind). Each instanced marker node gets its own bone + skin,
+    # mirroring FoxCrowd (a skinned mesh under EXT_mesh_gpu_instancing animates per instance).
+    skin_attr = ibm_acc = None
+    if args.animate:
+        skin_attr = add_skin_attributes(d, [len(sphere[0]), len(cone[0])])  # [(j,w)_sphere, (j,w)_cone]
+        ibm_acc = add_identity_ibm(d)
+        d.setdefault("skins", [])
 
     for ext in ("KHR_lights_punctual", "EXT_mesh_gpu_instancing"):
         d.setdefault("extensionsUsed", [])
@@ -237,6 +336,7 @@ def main() -> int:
     accs = add_instance_streams(d, streams)
 
     n_mat, n_mesh = len(d["materials"]), len(d["meshes"])
+    anim_joints = []  # (joint_node_index, is_spot) for the animated variant.
     for key in keys:
         is_spot, bucket = key
         cr, cg, cb = palette[bucket]
@@ -247,19 +347,45 @@ def main() -> int:
             "emissiveFactor": [round(cr, 4), round(cg, 4), round(cb, 4)], "doubleSided": True,
         })
         geom = cone_acc if is_spot else sphere_acc
+        prim_attrs = {"POSITION": geom[0], "NORMAL": geom[1]}
+        if args.animate:
+            j_acc, w_acc = skin_attr[1 if is_spot else 0]
+            prim_attrs["JOINTS_0"] = j_acc
+            prim_attrs["WEIGHTS_0"] = w_acc
         d["meshes"].append({"primitives": [{
-            "attributes": {"POSITION": geom[0], "NORMAL": geom[1]},
-            "indices": geom[2], "material": n_mat,
+            "attributes": prim_attrs, "indices": geom[2], "material": n_mat,
         }]})
         ti, ri = stream_map[key]
         attrs = {"TRANSLATION": accs[ti]}
         if ri is not None:
             attrs["ROTATION"] = accs[ri]
+        node = {"mesh": n_mesh, "name": f"Markers_{'spot' if is_spot else 'point'}_{bucket}",
+                "extensions": {"EXT_mesh_gpu_instancing": {"attributes": attrs}}}
+        if args.animate:
+            # One root bone (at the marker origin) per instanced node; the renderer animates it per
+            # instance. The instance TRANSLATION/ROTATION places each marker after skinning, so the bone
+            # motion is local: spheres orbit their light, cones spin about their apex (the light).
+            joint = len(d["nodes"])
+            d["nodes"].append({"translation": [0.0, 0.0, 0.0],
+                               "name": f"Bone_{'spot' if is_spot else 'point'}_{bucket}"})
+            scene_nodes.append(joint)
+            node["skin"] = len(d["skins"])
+            d["skins"].append({"inverseBindMatrices": ibm_acc, "joints": [joint], "skeleton": joint})
+            anim_joints.append((joint, is_spot))
         scene_nodes.append(len(d["nodes"]))
-        d["nodes"].append({"mesh": n_mesh, "name": f"Markers_{'spot' if is_spot else 'point'}_{bucket}",
-                           "extensions": {"EXT_mesh_gpu_instancing": {"attributes": attrs}}})
+        d["nodes"].append(node)
         n_mat += 1
         n_mesh += 1
+
+    if args.animate:
+        t_acc, orbit_acc, spin_acc = add_animation_streams(d, args.anim_period, 32, args.orbit_radius)
+        samplers = [{"input": t_acc, "output": orbit_acc, "interpolation": "LINEAR"},
+                    {"input": t_acc, "output": spin_acc, "interpolation": "LINEAR"}]
+        channels = [{"sampler": 1 if is_spot else 0,
+                     "target": {"node": j, "path": "rotation" if is_spot else "translation"}}
+                    for (j, is_spot) in anim_joints]
+        d.setdefault("animations", []).append({"name": "LightDance", "samplers": samplers,
+                                               "channels": channels})
 
     d["extensions"] = d.get("extensions", {})
     d["extensions"]["KHR_lights_punctual"] = {"lights": lights}
@@ -269,7 +395,9 @@ def main() -> int:
     n_spot = args.num_lights // 2
     print(f"wrote {args.out}: Sponza + {args.num_lights} lights "
           f"({args.num_lights - n_spot} point/sphere, {n_spot} spot/cone), "
-          f"{len(keys)} instanced marker nodes")
+          f"{len(keys)} instanced marker nodes"
+          + (f", animated (spheres orbit r={args.orbit_radius}, cones spin, {args.anim_period}s loop)"
+             if args.animate else ""))
     return 0
 
 
