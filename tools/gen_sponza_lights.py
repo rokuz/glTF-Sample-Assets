@@ -298,7 +298,10 @@ def main() -> int:
     hi = [wmax[0] - 0.5, wmax[1] - 1.5, wmax[2] - 0.5]
     buckets = {}  # (is_spot, bucket) -> [(translation, rotation-quat-or-None)]
 
-    # Each light is its own node (lights cannot be instanced); markers are instanced separately.
+    # Non-animated: each light is its own node (lights cannot be instanced); markers are instanced
+    # separately. Animated: the light rides the instanced marker node instead (one light def per
+    # bucket, which the loader expands to one light per instance), so the skin pass moves each light
+    # with its marker. So here, when animating, only collect the bucket placements.
     for i in range(args.num_lights):
         is_spot = (i % 2 == 1)
         bucket = (i // 2) % NUM_BUCKETS
@@ -307,20 +310,21 @@ def main() -> int:
         pos = [round(rng.uniform(lo[j], hi[j]), 4) for j in range(3)]
         intensity = round(rng.uniform(2.0, 6.0), 3)
         rng_range = round(rng.uniform(3.0, 6.0), 3)
+        quat = [round(c, 5) for c in quat_from_neg_z(rand_dir(rng))] if is_spot else None
+        buckets.setdefault((is_spot, bucket), []).append((pos, quat))
+        if args.animate:
+            continue  # one light def per bucket, attached to the instanced marker node, below.
 
         node = {"translation": pos, "name": f"Light{i}",
                 "extensions": {"KHR_lights_punctual": {"light": i}}}
         if is_spot:
-            quat = [round(c, 5) for c in quat_from_neg_z(rand_dir(rng))]
             node["rotation"] = quat
             lights.append({"type": "spot", "color": color, "intensity": intensity, "range": rng_range,
                            "spot": {"innerConeAngle": round(inner, 5), "outerConeAngle": round(outer, 5)},
                            "name": f"L{i}"})
-            buckets.setdefault((True, bucket), []).append((pos, quat))
         else:
             lights.append({"type": "point", "color": color, "intensity": intensity,
                            "range": rng_range, "name": f"L{i}"})
-            buckets.setdefault((False, bucket), []).append((pos, None))
         scene_nodes.append(len(d["nodes"]))
         d["nodes"].append(node)
 
@@ -372,6 +376,16 @@ def main() -> int:
             node["skin"] = len(d["skins"])
             d["skins"].append({"inverseBindMatrices": ibm_acc, "joints": [joint], "skeleton": joint})
             anim_joints.append((joint, is_spot))
+            # The light rides the instanced marker node: the loader makes one light per instance (sharing
+            # this bucket def), and the skin pass writes each instance's animated world pos/dir into it.
+            light_def = {"type": "spot" if is_spot else "point",
+                         "color": [round(cr, 4), round(cg, 4), round(cb, 4)],
+                         "intensity": 4.0, "range": 5.0,
+                         "name": f"L_{'spot' if is_spot else 'point'}_{bucket}"}
+            if is_spot:
+                light_def["spot"] = {"innerConeAngle": round(inner, 5), "outerConeAngle": round(outer, 5)}
+            node["extensions"]["KHR_lights_punctual"] = {"light": len(lights)}
+            lights.append(light_def)
         scene_nodes.append(len(d["nodes"]))
         d["nodes"].append(node)
         n_mat += 1
