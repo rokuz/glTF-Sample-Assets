@@ -1,0 +1,598 @@
+{
+  "accessors": [
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 11454,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2561,
+      "type": "VEC3",
+      "max": [
+        0.0421853662,
+        0.165177226,
+        0.07641257
+      ],
+      "min": [
+        -0.0550890863,
+        0.000100584337,
+        -0.06608054
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30732,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2561,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2561,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9600,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 61464,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1714,
+      "type": "VEC3",
+      "max": [
+        0.038417045,
+        0.03737088,
+        0.0
+      ],
+      "min": [
+        -0.03632475,
+        -0.0373709127,
+        -0.141060948
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 82032,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1714,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20488,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1714,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 64,
+      "type": "VEC3",
+      "max": [
+        0.875,
+        0.0,
+        0.875
+      ],
+      "min": [
+        -0.875,
+        0.0,
+        -0.875
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 64,
+      "type": "VEC3",
+      "max": [
+        0.875,
+        0.87499992281723,
+        4.65609201194539e-08
+      ],
+      "min": [
+        -0.875,
+        -0.87499992281723,
+        -4.65609201194539e-08
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 64,
+      "type": "VEC3",
+      "max": [
+        0.875,
+        0.0,
+        0.875
+      ],
+      "min": [
+        -0.875,
+        0.0,
+        -0.875
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 64,
+      "type": "VEC3",
+      "max": [
+        0.875,
+        0.87499992281723,
+        4.65609201194539e-08
+      ],
+      "min": [
+        -0.875,
+        -0.87499992281723,
+        -4.65609201194539e-08
+      ]
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 22908,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 5724,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 34356,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3030,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 19200,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 28800,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2400,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "CC0, glass vase by Eric Chadwick, flowers by Rico Cilliers",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 102600,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 102600,
+      "byteLength": 34200,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 136800,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 137568,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 138336,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 139104,
+      "byteLength": 768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 139872,
+      "byteLength": 40416,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 180288,
+      "byteLength": 33600,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "GlassVaseFlowersCrowdLOD.bin",
+      "byteLength": 213888
+    }
+  ],
+  "extensionsUsed": [
+    "EXT_mesh_gpu_instancing",
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "shrub_sorrel_01_normal_1k.jpg"
+    },
+    {
+      "uri": "shrub_sorrel_01_color_1k.png"
+    },
+    {
+      "uri": "shrub_sorrel_01_rough_1k.jpg"
+    },
+    {
+      "uri": "glass_vase_thickness_1k.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "name": "Flowers"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.15,
+          0.15,
+          0.15,
+          0.3
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "name": "GlassAlpha"
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 0.075,
+          "thicknessTexture": {
+            "index": 3
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "GlassTransmission"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 12,
+                  "error": 0.00052
+                },
+                {
+                  "indices": 13,
+                  "error": 0.007594
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Flowers"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 14,
+                  "error": 0.000533
+                },
+                {
+                  "indices": 15,
+                  "error": 0.00137
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "GlassAlpha"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 14,
+                  "error": 0.000533
+                },
+                {
+                  "indices": 15,
+                  "error": 0.00137
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "GlassTransmission"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 12,
+                  "error": 0.00052
+                },
+                {
+                  "indices": 13,
+                  "error": 0.007594
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Flowers"
+    }
+  ],
+  "nodes": [
+    {
+      "extensions": {
+        "EXT_mesh_gpu_instancing": {
+          "attributes": {
+            "TRANSLATION": 8
+          }
+        }
+      },
+      "mesh": 0,
+      "translation": [
+        0.00157174421,
+        0.0380421355,
+        -0.00221169274
+      ],
+      "name": "Flowers1"
+    },
+    {
+      "extensions": {
+        "EXT_mesh_gpu_instancing": {
+          "attributes": {
+            "TRANSLATION": 9
+          }
+        }
+      },
+      "mesh": 1,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "name": "GlassAlpha"
+    },
+    {
+      "extensions": {
+        "EXT_mesh_gpu_instancing": {
+          "attributes": {
+            "TRANSLATION": 10
+          }
+        }
+      },
+      "mesh": 3,
+      "translation": [
+        0.12157174421,
+        0.0380421355,
+        -0.00221169274
+      ],
+      "name": "Flowers2"
+    },
+    {
+      "extensions": {
+        "EXT_mesh_gpu_instancing": {
+          "attributes": {
+            "TRANSLATION": 11
+          }
+        }
+      },
+      "mesh": 2,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "translation": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "name": "GlassTransmission"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "shrub_sorrel_01_normal_1k.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "shrub_sorrel_01_color_1k.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "shrub_sorrel_01_rough_1k.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "glass_vase_thickness_1k.jpg"
+    }
+  ]
+}

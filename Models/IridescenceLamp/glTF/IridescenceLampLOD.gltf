@@ -1,0 +1,522 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 36246,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 7036,
+      "type": "VEC3",
+      "max": [
+        0.14865604,
+        0.476097584,
+        0.1509395
+      ],
+      "min": [
+        -0.14865604,
+        0.0,
+        -0.1509395
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 84432,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 7036,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 7036,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 16896,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 168864,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2990,
+      "type": "VEC3",
+      "max": [
+        0.09652254,
+        0.20118323,
+        0.09652254
+      ],
+      "min": [
+        -0.09652254,
+        0.05125974,
+        -0.09652254
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 204744,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2990,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 56288,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2990,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3456,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 240624,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 657,
+      "type": "VEC3",
+      "max": [
+        0.14623034,
+        0.472099632,
+        0.148518875
+      ],
+      "min": [
+        -0.14623034,
+        0.243182123,
+        -0.148518875
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 248508,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 657,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 80208,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 657,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 72492,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 18120,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 108732,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9060,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 33792,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 8448,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 50688,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4224,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 6912,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1728,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 10368,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 864,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "Copyright 2022 Wayfair LLC. CC BY 4.0 International https://creativecommons.org/licenses/by/4.0/",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 256392,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 256392,
+      "byteLength": 85464,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 341856,
+      "byteLength": 126852,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 468708,
+      "byteLength": 59136,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 527844,
+      "byteLength": 12096,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "IridescenceLampLOD.bin",
+      "byteLength": 539940
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "KHR_materials_iridescence",
+    "KHR_materials_ior",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "IridescenceLamp_BaseColor.png"
+    },
+    {
+      "uri": "IridescenceLamp_OcclusionRoughnessMetalness.png"
+    },
+    {
+      "uri": "IridescenceLamp_Iridescence.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "IridescenceLamp"
+    },
+    {
+      "extensions": {
+        "KHR_materials_ior": {
+          "ior": 1.6
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 0.005
+        },
+        "KHR_materials_iridescence": {
+          "iridescenceFactor": 1,
+          "iridescenceIor": 2,
+          "iridescenceThicknessMaximum": 405,
+          "iridescenceThicknessMinimum": 385,
+          "iridescenceThicknessTexture": {
+            "index": 2
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "IridescenceLampTransmissionIridescence"
+    },
+    {
+      "extensions": {
+        "KHR_materials_iridescence": {
+          "iridescenceFactor": 1,
+          "iridescenceIor": 1.8,
+          "iridescenceThicknessMaximum": 515,
+          "iridescenceThicknessMinimum": 485,
+          "iridescenceThicknessTexture": {
+            "index": 2
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "IridescenceLampIridescence"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 12,
+                  "error": 0.000656
+                },
+                {
+                  "indices": 13,
+                  "error": 0.002228
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "lamp"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 14,
+                  "error": 0.000653
+                },
+                {
+                  "indices": 15,
+                  "error": 0.000972
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "lamp_transmission"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 16,
+                  "error": 6.5e-05
+                },
+                {
+                  "indices": 17,
+                  "error": 0.000135
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "lamp_iridescence"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "lamp"
+    },
+    {
+      "mesh": 1,
+      "name": "lamp_transmission"
+    },
+    {
+      "mesh": 2,
+      "name": "lamp_iridescence"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "IridescenceLamp_BaseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "IridescenceLamp_OcclusionRoughnessMetalness.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "IridescenceLamp_Iridescence.png"
+    }
+  ]
+}

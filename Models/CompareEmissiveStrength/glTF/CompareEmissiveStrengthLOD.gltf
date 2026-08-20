@@ -1,0 +1,393 @@
+{
+  "accessors": [
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 673,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 673,
+      "type": "VEC2",
+      "max": [
+        0.9999999403953552,
+        1.0
+      ],
+      "min": [
+        -0.15000003576278687,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 673,
+      "type": "VEC3",
+      "max": [
+        0.9999998211860657,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9999998211860657,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 673,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 673,
+      "type": "VEC2",
+      "max": [
+        0.9999999403953552,
+        1.0
+      ],
+      "min": [
+        -0.15000003576278687,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 673,
+      "type": "VEC3",
+      "max": [
+        0.9999998211860657,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9999998211860657,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 7680,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 11520,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 960,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 7680,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 11520,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 960,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "Asset CC0, created by Eric Chadwick and DGG. glTF logo \u00a9 2017, Khronos Group.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 8076,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8076,
+      "byteLength": 5384,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13460,
+      "byteLength": 8076,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21536,
+      "byteLength": 8076,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 29612,
+      "byteLength": 5384,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34996,
+      "byteLength": 8076,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43072,
+      "byteLength": 13440,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 56512,
+      "byteLength": 13440,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CompareEmissiveStrengthLOD.bin",
+      "byteLength": 69952
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "Compare_Emissive-Strength_img0.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "glTF Logo Emissive"
+    },
+    {
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 3
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "glTF Logo Emissive Strength"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 8,
+                  "error": 0.007558
+                },
+                {
+                  "indices": 9,
+                  "error": 0.013508
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 3,
+            "TEXCOORD_0": 2
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "GeoSphere001"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 10,
+                  "error": 0.007558
+                },
+                {
+                  "indices": 11,
+                  "error": 0.013508
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 7,
+            "TEXCOORD_0": 6
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "GeoSphere002"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.6532815098762512,
+        -0.27059805393218994,
+        -0.27059805393218994,
+        -0.6532815098762512
+      ],
+      "translation": [
+        -0.550000011920929,
+        0.0,
+        0.0
+      ],
+      "name": "GeoSphere001"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.6532815098762512,
+        -0.27059805393218994,
+        -0.27059805393218994,
+        -0.6532815098762512
+      ],
+      "translation": [
+        0.550000011920929,
+        0.0,
+        0.0
+      ],
+      "name": "GeoSphere002"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

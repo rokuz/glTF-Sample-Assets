@@ -1,0 +1,258 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24138,
+      "type": "VEC3",
+      "max": [
+        0.0073140156455338,
+        0.005209291819483042,
+        0.008868019096553326
+      ],
+      "min": [
+        -0.008429992944002151,
+        -0.011552387848496437,
+        -0.004613796249032021
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24138,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24138,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 122508,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 490032,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 61254,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 735048,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 30624,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "Orange (https://skfb.ly/EZNY) by zamdreamer (CCBY 4.0), glTF material by Eric Chadwick (CCBY 4.0)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 772416,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 772416,
+      "byteLength": 857544,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "MandarinOrangeLOD.bin",
+      "byteLength": 1629960
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_diffuse_transmission",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "MandarinOrange_Basecolor.jpg"
+    },
+    {
+      "uri": "MandarinOrange_DiffuseTransmission.png"
+    },
+    {
+      "uri": "MandarinOrange_Normal.png"
+    },
+    {
+      "uri": "MandarinOrange_OcclusionRough.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_diffuse_transmission": {
+          "diffuseTransmissionFactor": 1,
+          "diffuseTransmissionColorTexture": {
+            "index": 1
+          },
+          "diffuseTransmissionTexture": {
+            "index": 1
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 0.5
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "MandarinOrange"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 4,
+                  "error": 4.6e-05
+                },
+                {
+                  "indices": 5,
+                  "error": 9.8e-05
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "MandarinOrange"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "MandarinOrange"
+    },
+    {
+      "rotation": [
+        -0.5,
+        3.061616997868382e-17,
+        5.3028761936245346e-17,
+        0.8660254037844385
+      ],
+      "children": [
+        0
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "MandarinOrange_Basecolor"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "MandarinOrange_DiffuseTransmission"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "MandarinOrange_Normal"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "MandarinOrange_OcclusionRough"
+    }
+  ]
+}

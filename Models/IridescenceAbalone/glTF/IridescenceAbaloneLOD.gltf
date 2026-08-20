@@ -1,0 +1,251 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 18108,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3159,
+      "type": "VEC3",
+      "max": [
+        0.116056539,
+        0.07781754,
+        0.07919444
+      ],
+      "min": [
+        -0.116056576,
+        -0.07781754,
+        -0.07919447
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 37908,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3159,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3159,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 36216,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9054,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 54324,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4524,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "Material by Eric Chadwick, model by Abby Crawford (https://skfb.ly/GTLF), both licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/).",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 75816,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 75816,
+      "byteLength": 50544,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 126360,
+      "byteLength": 63372,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "IridescenceAbaloneLOD.bin",
+      "byteLength": 189732
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_iridescence",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "IridescenceAbalone_BaseColor.jpg"
+    },
+    {
+      "uri": "IridescenceAbalone_Iridescence.jpg"
+    },
+    {
+      "uri": "IridescenceAbalone_NormalBump.png"
+    },
+    {
+      "uri": "IridescenceAbalone_ORM.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_iridescence": {
+          "iridescenceFactor": 1,
+          "iridescenceTexture": {
+            "index": 1
+          },
+          "iridescenceThicknessTexture": {
+            "index": 1
+          },
+          "iridescenceThicknessMinimum": 600,
+          "iridescenceThicknessMaximum": 800
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "IridescenceAbalone"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 4,
+                  "error": 0.000767
+                },
+                {
+                  "indices": 5,
+                  "error": 0.001807
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "IridescenceAbalone"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "IridescenceAbalone"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "IridescenceAbalone_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "IridescenceAbalone_Iridescence.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "IridescenceAbalone_NormalBump.png"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "IridescenceAbalone_ORM.jpg"
+    }
+  ]
+}

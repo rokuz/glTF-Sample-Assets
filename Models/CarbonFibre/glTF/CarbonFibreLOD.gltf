@@ -1,0 +1,230 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 11904,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2129,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 25548,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2129,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2129,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 23808,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 5952,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 35712,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2976,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "(C) 2023, Wayfair LLC. CC-BY 4.0 International https://creativecommons.org/licenses/by/4.0/. Model and textures created by Eric Chadwick.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 51096,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 51096,
+      "byteLength": 17032,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 68128,
+      "byteLength": 41664,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CarbonFibreLOD.bin",
+      "byteLength": 109792
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_anisotropy",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "CarbonFibre_occlusion.png"
+    },
+    {
+      "uri": "CarbonFibre_normal.png"
+    },
+    {
+      "uri": "CarbonFibre_anisotropy.png"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_anisotropy": {
+          "anisotropyStrength": 0.5,
+          "anisotropyRotation": 0,
+          "anisotropyTexture": {
+            "index": 2
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.009,
+          0.009,
+          0.009,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 2.0
+      },
+      "occlusionTexture": {
+        "index": 0,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "CarbonFibre"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 4,
+                  "error": 0.002913
+                },
+                {
+                  "indices": 5,
+                  "error": 0.004577
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "CarbonFibre"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "name": "CarbonFibre"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CarbonFibre_occlusion.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "CarbonFibre_normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "CarbonFibre_anisotropy.png"
+    }
+  ]
+}

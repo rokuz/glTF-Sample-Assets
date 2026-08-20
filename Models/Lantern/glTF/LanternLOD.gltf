@@ -1,0 +1,492 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 926,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 926,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 926,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 926,
+      "type": "VEC3",
+      "max": [
+        7.74559927,
+        12.8321095,
+        2.31570983
+      ],
+      "min": [
+        -7.74559927,
+        -12.8321095,
+        -2.31570983
+      ]
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2616,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 756,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 756,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 756,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 756,
+      "type": "VEC3",
+      "max": [
+        0.129208073,
+        0.6523504,
+        0.129208073
+      ],
+      "min": [
+        -0.129208073,
+        -0.6523504,
+        -0.129208073
+      ]
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3744,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2463,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2463,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2463,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2463,
+      "type": "VEC3",
+      "max": [
+        1.03408229,
+        2.529281,
+        1.03408468
+      ],
+      "min": [
+        -1.03408229,
+        -2.529281,
+        -1.03408468
+      ]
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9822,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 5232,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1308,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 7848,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 786,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 7488,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 936,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 19644,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4908,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 29460,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2454,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 7408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7408,
+      "byteLength": 11112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18520,
+      "byteLength": 14816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33336,
+      "byteLength": 11112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 44448,
+      "byteLength": 6048
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 50496,
+      "byteLength": 9072
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 59568,
+      "byteLength": 12096
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71664,
+      "byteLength": 9072
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80736,
+      "byteLength": 19704
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 100440,
+      "byteLength": 29556
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 129996,
+      "byteLength": 39408
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 169404,
+      "byteLength": 29556
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 198960,
+      "byteLength": 9420,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 208380,
+      "byteLength": 9360,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 217740,
+      "byteLength": 34368,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "LanternLOD.bin",
+      "byteLength": 252108
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "Lantern_baseColor.png"
+    },
+    {
+      "uri": "Lantern_roughnessMetallic.png"
+    },
+    {
+      "uri": "Lantern_normal.png"
+    },
+    {
+      "uri": "Lantern_emissive.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "LanternPost_Mat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 15,
+                  "error": 0.18529
+                },
+                {
+                  "indices": 16,
+                  "error": 1.279025
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 0
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "LanternPole_Body"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 17,
+                  "error": 0.037105
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 5
+          },
+          "indices": 9,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "LanternPole_Chain"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 18,
+                  "error": 0.030334
+                },
+                {
+                  "indices": 19,
+                  "error": 0.236669
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 11,
+            "TANGENT": 12,
+            "TEXCOORD_0": 10
+          },
+          "indices": 14,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "LanternPole_Lantern"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        -3.82315421,
+        13.01603,
+        0.0
+      ],
+      "name": "LanternPole_Body"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -9.582001,
+        21.0378723,
+        0.0
+      ],
+      "name": "LanternPole_Chain"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -9.582007,
+        18.0091515,
+        0.0
+      ],
+      "name": "LanternPole_Lantern"
+    },
+    {
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "children": [
+        0,
+        1,
+        2
+      ],
+      "name": "Lantern"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    }
+  ]
+}

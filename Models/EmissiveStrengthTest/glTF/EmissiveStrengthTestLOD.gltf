@@ -1,0 +1,596 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 68,
+      "type": "VEC3",
+      "max": [
+        8.001113891601562,
+        4.009398460388184,
+        3.9989333152770996
+      ],
+      "min": [
+        -8.002613067626953,
+        -6.0010666847229,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 68,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 68,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 90,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "CC-BY 4.0 Copyright 2022 Analytical Graphics, Inc. Model and Textures by Ed Mackey.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1392,
+      "byteLength": 816
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2208,
+      "byteLength": 544
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2752,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3040,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3328,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3616,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3904,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4192,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4480,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4768,
+      "byteLength": 288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5056,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5128,
+      "byteLength": 180,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "EmissiveStrengthTestLOD.bin",
+      "byteLength": 5308
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength"
+  ],
+  "images": [
+    {
+      "uri": "PlainGrid.png",
+      "mimeType": "image/png",
+      "name": "PlainGrid"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 4
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.800000011920929
+      },
+      "emissiveFactor": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Emit4"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "FlatBackdrop"
+    },
+    {
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.800000011920929
+      },
+      "emissiveFactor": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Emit2"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.800000011920929
+      },
+      "emissiveFactor": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Emit1"
+    },
+    {
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 8
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.800000011920929
+      },
+      "emissiveFactor": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Emit8"
+    },
+    {
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 16
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.800000011920929
+      },
+      "emissiveFactor": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Emit16"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "indices": 6,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Plane"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "Cube.001"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 3
+        }
+      ],
+      "name": "Cube.002"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 4
+        }
+      ],
+      "name": "Cube.003"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 5
+        }
+      ],
+      "name": "Cube.004"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube4"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.0,
+        0.0,
+        -2.0
+      ],
+      "name": "MeterGrid"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -3.0,
+        0.0,
+        0.0
+      ],
+      "name": "Cube2"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -6.0,
+        0.0,
+        0.0
+      ],
+      "name": "Cube1"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "name": "Cube8"
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "name": "Cube16"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

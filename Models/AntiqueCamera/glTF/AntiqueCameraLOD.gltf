@@ -1,0 +1,445 @@
+{
+  "accessors": [
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 18360,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6510,
+      "type": "VEC3",
+      "max": [
+        2.6307950019836426,
+        9.506563186645508,
+        2.852458953857422
+      ],
+      "min": [
+        -3.324300527572632,
+        -0.0014147758483886719,
+        -1.7042126655578613
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6510,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6510,
+      "type": "VEC2",
+      "max": [
+        0.9990595579147339,
+        0.9990596017451026
+      ],
+      "min": [
+        0.0009403982548974454,
+        0.003113090991973877
+      ]
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 41838,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14668,
+      "type": "VEC3",
+      "max": [
+        1.8916611671447754,
+        12.645012855529785,
+        1.2003434896469116
+      ],
+      "min": [
+        -1.8916611671447754,
+        9.395228385925293,
+        -1.200343370437622
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14668,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14668,
+      "type": "VEC2",
+      "max": [
+        0.9987892508506775,
+        0.9987891529453918
+      ],
+      "min": [
+        0.0012108470546081662,
+        0.008463442325592041
+      ]
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 36720,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 55080,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4560,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 83676,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 20916,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 125508,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9540,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 78120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 78120,
+      "byteLength": 78120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 156240,
+      "byteLength": 52080,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 208320,
+      "byteLength": 176016,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 384336,
+      "byteLength": 176016,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 560352,
+      "byteLength": 117344,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 677696,
+      "byteLength": 64200,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 741896,
+      "byteLength": 144588,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "AntiqueCameraLOD.bin",
+      "byteLength": 886484
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "camera_camera_Normal.png",
+      "name": "camera_camera_Normal"
+    },
+    {
+      "uri": "camera_camera_BaseColor.png",
+      "name": "camera_camera_BaseColor"
+    },
+    {
+      "uri": "camera_tripod_BaseColor.png",
+      "name": "camera_tripod_BaseColor"
+    },
+    {
+      "uri": "camera_tripod_Normal.png",
+      "name": "camera_tripod_Normal"
+    },
+    {
+      "uri": "camera_camera_Roughness.png",
+      "name": "camera_camera_Roughness"
+    },
+    {
+      "uri": "camera_tripod_Roughness.png",
+      "name": "camera_tripod_Roughness"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 4,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "camera"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 3,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "tripod"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 8,
+                  "error": 0.02236
+                },
+                {
+                  "indices": 9,
+                  "error": 0.177611
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "tripod_uv"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 10,
+                  "error": 0.010283
+                },
+                {
+                  "indices": 11,
+                  "error": 0.183286
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "camera_uv"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        -0.7071068286895752,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        0.5700311064720154,
+        0.5700311064720154,
+        0.5700311064720154
+      ],
+      "name": "camera"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -0.7071068286895752,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        0.5700311064720154,
+        0.5700311064720154,
+        0.5700311064720154
+      ],
+      "name": "tripod"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

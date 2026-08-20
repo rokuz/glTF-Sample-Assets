@@ -1,0 +1,204 @@
+{
+  "extensions": {
+    "KHR_xmp_json_ld": {
+      "packets": [
+        {
+          "@context": {
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          },
+          "@id": "",
+          "dc:contributor": {
+            "@set": [
+              "Creator1Name",
+              "Creator2Email@email.com",
+              "Creator3Name<Email@email.com>"
+            ]
+          },
+          "dc:coverage": "Bay Area, California, United States",
+          "dc:creator": {
+            "@list": [
+              "CreatorName",
+              "CreatorEmail@email.com"
+            ]
+          },
+          "dc:date": {
+            "@list": [
+              "2019-05-16T19:20:30+01:00"
+            ]
+          },
+          "dc:description": {
+            "@type": "rdf:Alt",
+            "rdf:_1": {
+              "@language": "en-us",
+              "@value": "An example of a glTF file with XMP metadata in it"
+            }
+          },
+          "dc:format": "model/gltf+json",
+          "dc:language": {
+            "@set": [
+              "en"
+            ]
+          },
+          "dc:publisher": {
+            "@set": [
+              "Khronos"
+            ]
+          },
+          "dc:title": {
+            "@type": "rdf:Alt",
+            "rdf:_1": {
+              "@language": "en-us",
+              "@value": "Sample glTF with XMP metadata"
+            }
+          }
+        },
+        {
+          "@context": {
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          },
+          "dc:title": {
+            "@type": "rdf:Alt",
+            "rdf:_1": {
+              "@language": "en-us",
+              "@value": "My Cube Mesh"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3456,
+      "type": "VEC3",
+      "max": [
+        10.0,
+        19.949111938476562,
+        10.0
+      ],
+      "min": [
+        -10.0,
+        -0.05088699981570244,
+        -10.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3456,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 5172,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extensions": {
+      "KHR_xmp_json_ld": {
+        "packet": 0
+      }
+    },
+    "generator": "GDS lod baker 1",
+    "copyright": "2017 (c) Adobe Corp",
+    "version": "2.0",
+    "minVersion": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 41472
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41472,
+      "byteLength": 41472
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 82944,
+      "byteLength": 20688,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "XmpMetadataRoundedCubeLOD.bin",
+      "byteLength": 103632
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_xmp_json_ld"
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6307567954063416,
+          0.6307567954063416,
+          0.6307567954063416,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.503000020980835
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "Rounded Cube Material"
+    }
+  ],
+  "meshes": [
+    {
+      "extensions": {
+        "KHR_xmp_json_ld": {
+          "packet": 1
+        }
+      },
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "MODEL_ROUNDED_CUBE_PART_1"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "MODEL_ROUNDED_CUBE_PART_1model_N3D"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

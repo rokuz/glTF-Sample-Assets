@@ -1,0 +1,233 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3575,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3575,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3575,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 3575,
+      "type": "VEC3",
+      "max": [
+        0.009921154,
+        0.00977163,
+        0.0100762453
+      ],
+      "min": [
+        -0.009921154,
+        -0.00977163,
+        -0.0100762453
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 18108,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 36216,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 9054,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 54324,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4524,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 28600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28600,
+      "byteLength": 42900
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71500,
+      "byteLength": 57200
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128700,
+      "byteLength": 42900
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 171600,
+      "byteLength": 63372,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "BoomBoxLOD.bin",
+      "byteLength": 234972
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "BoomBox_baseColor.png"
+    },
+    {
+      "uri": "BoomBox_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "BoomBox_normal.png"
+    },
+    {
+      "uri": "BoomBox_emissive.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "BoomBox_Mat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 5,
+                  "error": 7.2e-05
+                },
+                {
+                  "indices": 6,
+                  "error": 0.00018
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 0
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "BoomBox"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "BoomBox"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    },
+    {
+      "source": 3
+    }
+  ]
+}

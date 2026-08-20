@@ -1,0 +1,511 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 25257,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6803,
+      "type": "VEC3",
+      "max": [
+        0.08619007,
+        0.056946706,
+        0.226538792
+      ],
+      "min": [
+        -0.104619145,
+        -0.172301471,
+        -2.43595832e-06
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6803,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 81636,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6803,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 6803,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 840,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 163272,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 140,
+      "type": "VEC3",
+      "max": [
+        8.701398e-05,
+        -0.12128906,
+        0.142439723
+      ],
+      "min": [
+        -0.0193775147,
+        -0.170719177,
+        0.122564256
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 164952,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 140,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 4512,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 166632,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 769,
+      "type": "VEC3",
+      "max": [
+        0.01725974,
+        -0.0980222151,
+        0.15841879
+      ],
+      "min": [
+        -0.03568878,
+        -0.198292032,
+        0.106095724
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 175860,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 769,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 50514,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 12591,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 75696,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 6255,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 1680,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 306,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 9024,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2256,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 13536,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1128,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "(c) 2023 Wayfair, model and textures by Eric Chadwick, CC BY 4.0.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 185088,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 185088,
+      "byteLength": 108848,
+      "byteStride": 16,
+      "target": 34962,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 293936,
+      "byteLength": 54424,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 348360,
+      "byteLength": 88206,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 436568,
+      "byteLength": 2292,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 438860,
+      "byteLength": 15792,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "AnisotropyBarnLampLOD.bin",
+      "byteLength": 454652
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_anisotropy",
+    "KHR_materials_clearcoat",
+    "KHR_materials_emissive_strength",
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "KHR_texture_basisu",
+    "NG2_mesh_lod"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ],
+  "images": [
+    {
+      "uri": "AnisotropyBarnLamp_normalbump.ktx2"
+    },
+    {
+      "uri": "AnisotropyBarnLamp_occlusionroughnessmetal.ktx2"
+    },
+    {
+      "uri": "AnisotropyBarnLamp_basecolor.ktx2"
+    },
+    {
+      "uri": "AnisotropyBarnLamp_anisotropy.ktx2"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_anisotropy": {
+          "anisotropyStrength": 1,
+          "anisotropyRotation": 0,
+          "anisotropyTexture": {
+            "index": 3
+          }
+        },
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.25,
+          "clearcoatRoughnessFactor": 0.15,
+          "clearcoatNormalTexture": {
+            "index": 0
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Lamp Metal"
+    },
+    {
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 25
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09,
+          0.09,
+          0.09,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.7
+      },
+      "emissiveFactor": [
+        1.0,
+        0.5,
+        0.25
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Lamp Filament"
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 0.01
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Lamp Glass"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 11,
+                  "error": 0.000494
+                },
+                {
+                  "indices": 12,
+                  "error": 0.001511
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 3,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Lamp Metal"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 13,
+                  "error": 0.002365
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7
+          },
+          "indices": 5,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Lamp Filament"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 14,
+                  "error": 0.000366
+                },
+                {
+                  "indices": 15,
+                  "error": 0.000689
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "Lamp Glass"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Lamp Metal"
+    },
+    {
+      "mesh": 1,
+      "name": "Lamp Filament"
+    },
+    {
+      "mesh": 2,
+      "name": "Lamp Glass"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      },
+      "sampler": 0
+    },
+    {
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      },
+      "sampler": 0
+    }
+  ]
+}

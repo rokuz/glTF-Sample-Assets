@@ -1,0 +1,510 @@
+{
+  "accessors": [
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 9216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3",
+      "max": [
+        0.5000792145729065,
+        0.4901543855667114,
+        0.5000792145729065
+      ],
+      "min": [
+        -0.5000792145729065,
+        -0.4901544749736786,
+        -0.5000792145729065
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC2",
+      "max": [
+        0.9995999336242676,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 9216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3",
+      "max": [
+        0.5000792145729065,
+        0.4901543855667114,
+        0.5000792145729065
+      ],
+      "min": [
+        -0.5000792145729065,
+        -0.4901544749736786,
+        -0.5000792145729065
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC2",
+      "max": [
+        0.9995999336242676,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 9216,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3",
+      "max": [
+        0.5000792145729065,
+        0.4901543855667114,
+        0.5000792145729065
+      ],
+      "min": [
+        -0.5000792145729065,
+        -0.4901544749736786,
+        -0.5000792145729065
+      ]
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC2",
+      "max": [
+        0.9995999336242676,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 9216,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "Asset CC0, created by Eric Chadwick and DGG. glTF logo \u00a9 2017, Khronos Group.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 110592,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 221184,
+      "byteLength": 73728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 294912,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 405504,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 516096,
+      "byteLength": 73728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 589824,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 700416,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 811008,
+      "byteLength": 73728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 884736,
+      "byteLength": 110592,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 995328,
+      "byteLength": 36864,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1032192,
+      "byteLength": 36864,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1069056,
+      "byteLength": 36864,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CompareBaseColorLOD.bin",
+      "byteLength": 1105920
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "images": [
+    {
+      "uri": "Compare_Basecolor_img0.png"
+    },
+    {
+      "uri": "Compare_Basecolor_img1.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.23882800340652466,
+          0.10615606606006622,
+          0.0477757565677166,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.25
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              0.324,
+              0.137
+            ],
+            "scale": [
+              0.349,
+              0.725
+            ]
+          }
+        },
+        "index": 0,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "baseColor plain dielectric"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.25,
+        "baseColorTexture": {
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
+                0.25,
+                0.25
+              ],
+              "scale": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              0.324,
+              0.137
+            ],
+            "scale": [
+              0.349,
+              0.725
+            ]
+          }
+        },
+        "index": 0,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "baseColor texture dielectric"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Sphere001"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Sphere002"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11,
+            "COLOR_0": 12
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Sphere003"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        4.371138828673793e-08,
+        0.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        -1.100000023841858,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sphere001"
+    },
+    {
+      "mesh": 1,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        4.371138828673793e-08,
+        0.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sphere002"
+    },
+    {
+      "mesh": 2,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        4.371138828673793e-08,
+        0.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        1.100000023841858,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sphere003"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    }
+  ]
+}

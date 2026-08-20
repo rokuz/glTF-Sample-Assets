@@ -1,0 +1,954 @@
+{
+  "accessors": [
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 66828,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 17832,
+      "type": "VEC3",
+      "max": [
+        0.14707215130329132,
+        0.19134199619293213,
+        0.11650625616312027
+      ],
+      "min": [
+        -0.14794300496578217,
+        -0.19188226759433746,
+        -0.000916633231099695
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 17832,
+      "type": "VEC2",
+      "max": [
+        0.9990000128746033,
+        0.9990000128746033
+      ],
+      "min": [
+        0.0010000000474974513,
+        0.0028717517852783203
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 17832,
+      "type": "VEC3",
+      "max": [
+        0.9999796748161316,
+        0.9993715882301331,
+        1.0
+      ],
+      "min": [
+        -0.9999915957450867,
+        -0.9992972016334534,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 117600,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 28918,
+      "type": "VEC3",
+      "max": [
+        0.13452692329883575,
+        0.17959971725940704,
+        0.20172017812728882
+      ],
+      "min": [
+        -0.14046065509319305,
+        -0.16962416470050812,
+        0.006418745964765549
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 28918,
+      "type": "VEC2",
+      "max": [
+        0.9990215301513672,
+        0.9989702701568604
+      ],
+      "min": [
+        0.0009784846333786845,
+        0.0010297289118170738
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 28918,
+      "type": "VEC3",
+      "max": [
+        0.9999472498893738,
+        0.9998851418495178,
+        0.9999755024909973
+      ],
+      "min": [
+        -0.9998433589935303,
+        -0.9999350309371948,
+        -0.9999182224273682
+      ]
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2865,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1605,
+      "type": "VEC3",
+      "max": [
+        104.15754699707031,
+        59.53657150268555,
+        2.0
+      ],
+      "min": [
+        -104.15754699707031,
+        -59.53657531738281,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1605,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 66828,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 11240,
+      "type": "VEC3",
+      "max": [
+        0.14707215130329132,
+        0.19134199619293213,
+        0.11650625616312027
+      ],
+      "min": [
+        -0.14794300496578217,
+        -0.19188226759433746,
+        -0.000916633231099695
+      ]
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 11240,
+      "type": "VEC3",
+      "max": [
+        0.9999796748161316,
+        0.9993715882301331,
+        1.0
+      ],
+      "min": [
+        -0.9999915957450867,
+        -0.9992972016334534,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 117600,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 28918,
+      "type": "VEC3",
+      "max": [
+        0.13452692329883575,
+        0.17959971725940704,
+        0.20172017812728882
+      ],
+      "min": [
+        -0.14046065509319305,
+        -0.16962416470050812,
+        0.006418745964765549
+      ]
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 28918,
+      "type": "VEC2",
+      "max": [
+        0.9990215301513672,
+        0.9989702701568604
+      ],
+      "min": [
+        0.0009784846333786845,
+        0.0010297289118170738
+      ]
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 28918,
+      "type": "VEC3",
+      "max": [
+        0.9999472498893738,
+        0.9998851418495178,
+        0.9999755024909973
+      ],
+      "min": [
+        -0.9998433589935303,
+        -0.9999350309371948,
+        -0.9999182224273682
+      ]
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2865,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1605,
+      "type": "VEC3",
+      "max": [
+        104.15754699707031,
+        59.53657150268555,
+        2.0
+      ],
+      "min": [
+        -104.15754699707031,
+        -59.53657531738281,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1605,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 133656,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 36972,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 207600,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 16704,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 235200,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 58800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 352800,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 29400,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 133656,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 36354,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 206364,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 16698,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 235200,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 58800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 352800,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 29400,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "\u00a9 2017, Khronos Group, glTF logo. Models CC0, created by Polyhaven.com. Textures CC0, created by Eric Chadwick.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 213984,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 213984,
+      "byteLength": 142656,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 356640,
+      "byteLength": 213984,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 570624,
+      "byteLength": 347016,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 917640,
+      "byteLength": 231344,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1148984,
+      "byteLength": 347016,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1496000,
+      "byteLength": 19260,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1515260,
+      "byteLength": 19260,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1534520,
+      "byteLength": 134880,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1669400,
+      "byteLength": 134880,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1804280,
+      "byteLength": 347016,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2151296,
+      "byteLength": 231344,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2382640,
+      "byteLength": 347016,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2729656,
+      "byteLength": 19260,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2748916,
+      "byteLength": 19260,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2768176,
+      "byteLength": 241008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3009184,
+      "byteLength": 411600,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3420784,
+      "byteLength": 5730,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3426516,
+      "byteLength": 239760,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3666276,
+      "byteLength": 411600,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4077876,
+      "byteLength": 5730,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CompareAmbientOcclusionLOD.bin",
+      "byteLength": 4083606
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "FruitBaseColor.jpg"
+    },
+    {
+      "uri": "FruitORM.jpg"
+    },
+    {
+      "uri": "BasketORM.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Basket with Occlusion"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Fruit with Occlusion"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Logo"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Basket without Occlusion"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Fruit without Occlusion"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 21,
+                  "error": 0.003816
+                },
+                {
+                  "indices": 22,
+                  "error": 0.014008
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 3,
+            "TEXCOORD_0": 2
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "BasketRight"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 23,
+                  "error": 0.001181
+                },
+                {
+                  "indices": 24,
+                  "error": 0.002776
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 7,
+            "TEXCOORD_0": 6
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "FruitRight"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "LogoRight"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 25,
+                  "error": 0.003816
+                },
+                {
+                  "indices": 26,
+                  "error": 0.011781
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13
+          },
+          "indices": 11,
+          "mode": 4,
+          "material": 3
+        }
+      ],
+      "name": "BasketLeft"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 27,
+                  "error": 0.001181
+                },
+                {
+                  "indices": 28,
+                  "error": 0.002776
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 17,
+            "TEXCOORD_0": 16
+          },
+          "indices": 14,
+          "mode": 4,
+          "material": 4
+        }
+      ],
+      "name": "FruitLeft"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20
+          },
+          "indices": 18,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "LogoLeft"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.5,
+        0.0,
+        0.0,
+        -0.8660253882408142
+      ],
+      "translation": [
+        0.1599999964237213,
+        -0.007346853613853455,
+        -0.005586136132478714
+      ],
+      "name": "BasketRight"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.5,
+        0.0,
+        0.0,
+        -0.8660253882408142
+      ],
+      "translation": [
+        0.1599999964237213,
+        -0.007346853613853455,
+        -0.0055861324071884155
+      ],
+      "name": "FruitRight"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        -0.342020183801651,
+        0.0,
+        0.0,
+        -0.9396926164627076
+      ],
+      "translation": [
+        0.157135009765625,
+        -0.04681558161973953,
+        0.17818716168403623
+      ],
+      "scale": [
+        0.000696652103215456,
+        0.000696652103215456,
+        0.000696652103215456
+      ],
+      "name": "LogoRight"
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.5,
+        0.0,
+        0.0,
+        -0.8660253882408142
+      ],
+      "translation": [
+        -0.1599999964237213,
+        -0.007346853613853455,
+        -0.005586136132478714
+      ],
+      "name": "BasketLeft"
+    },
+    {
+      "mesh": 4,
+      "rotation": [
+        0.5,
+        0.0,
+        0.0,
+        -0.8660253882408142
+      ],
+      "translation": [
+        -0.1599999964237213,
+        -0.007346853613853455,
+        -0.0055861324071884155
+      ],
+      "name": "FruitLeft"
+    },
+    {
+      "mesh": 5,
+      "rotation": [
+        -0.342020183801651,
+        0.0,
+        0.0,
+        -0.9396926164627076
+      ],
+      "translation": [
+        -0.16287654638290405,
+        -0.04681558161973953,
+        0.17818716168403623
+      ],
+      "scale": [
+        0.000696652103215456,
+        0.000696652103215456,
+        0.000696652103215456
+      ],
+      "name": "LogoLeft"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2188,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2188,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2188,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2188,
+      "type": "VEC3",
+      "max": [
+        0.0690619648,
+        0.2866283,
+        0.3253729
+      ],
+      "min": [
+        -0.073841624,
+        -0.000878453255,
+        -0.317738324
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 11592,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 23184,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 5796,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 34776,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2898,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 17504
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17504,
+      "byteLength": 26256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43760,
+      "byteLength": 35008
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 78768,
+      "byteLength": 26256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 105024,
+      "byteLength": 40572,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "BarramundiFishLOD.bin",
+      "byteLength": 145596
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "BarramundiFish_baseColor.png"
+    },
+    {
+      "uri": "BarramundiFish_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "BarramundiFish_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "7288_barramundi fish_col"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 5,
+                  "error": 0.001438
+                },
+                {
+                  "indices": 6,
+                  "error": 0.003658
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 0
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "barramundi_fish_Hero"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "BarramundiFish"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    }
+  ]
+}

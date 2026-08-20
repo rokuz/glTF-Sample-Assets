@@ -1,0 +1,576 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "normalized": false,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "normalized": false,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5,
+      "type": "SCALAR",
+      "max": [
+        2.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 20,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 80,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 15,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 260,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 340,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 15,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 580,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 640,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 15,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 820,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5,
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "name": "Step Scale",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "STEP",
+          "output": 8
+        }
+      ]
+    },
+    {
+      "name": "Linear Scale",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "LINEAR",
+          "output": 8
+        }
+      ]
+    },
+    {
+      "name": "CubicSpline Scale",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "scale"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "CUBICSPLINE",
+          "output": 9
+        }
+      ]
+    },
+    {
+      "name": "Step Rotation",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "STEP",
+          "output": 10
+        }
+      ]
+    },
+    {
+      "name": "CubicSpline Rotation",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 4,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "CUBICSPLINE",
+          "output": 11
+        }
+      ]
+    },
+    {
+      "name": "Linear Rotation",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "LINEAR",
+          "output": 10
+        }
+      ]
+    },
+    {
+      "name": "Step Translation",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 6,
+            "path": "translation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "STEP",
+          "output": 12
+        }
+      ]
+    },
+    {
+      "name": "CubicSpline Translation",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "CUBICSPLINE",
+          "output": 13
+        }
+      ]
+    },
+    {
+      "name": "Linear Translation",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 8,
+            "path": "translation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "LINEAR",
+          "output": 14
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 576,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 128,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 704,
+      "byteLength": 880
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1584,
+      "byteLength": 36,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1620,
+      "byteLength": 6,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "InterpolationTestLOD.bin",
+      "byteLength": 1626
+    }
+  ],
+  "images": [
+    {
+      "uri": "InterpolationTest_img0.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Material"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Material.009"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 5,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Cube"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 6,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Plane.001"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -3.4,
+        0.0,
+        0.0
+      ],
+      "name": "Cube.001"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        3.4,
+        0.0,
+        0.0
+      ],
+      "name": "Cube.002"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        3.4,
+        0.0
+      ],
+      "name": "Cube.003"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        3.4,
+        3.4,
+        0.0
+      ],
+      "name": "Cube.004"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -3.4,
+        3.4,
+        0.0
+      ],
+      "name": "Cube.005"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        0.0,
+        6.8,
+        0.0
+      ],
+      "name": "Cube.006"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        3.4,
+        6.8,
+        0.0
+      ],
+      "name": "Cube.008"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -3.4,
+        6.8,
+        0.0
+      ],
+      "name": "Cube.009"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.0,
+        -1.7941787242889404,
+        1.0036747455596924
+      ],
+      "scale": [
+        4.218648433685303,
+        1.0,
+        0.3652837574481964
+      ],
+      "name": "Plane"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

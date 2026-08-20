@@ -1,0 +1,427 @@
+{
+  "extensions": {
+    "KHR_materials_variants": {
+      "variants": [
+        {
+          "name": "Attenuation"
+        },
+        {
+          "name": "Surface Color"
+        }
+      ]
+    }
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 62570,
+      "type": "VEC3",
+      "max": [
+        0.9809443354606628,
+        1.0221298933029175,
+        1.4283748865127563
+      ],
+      "min": [
+        -0.8216659426689148,
+        0.0015843699220567942,
+        -0.46063709259033203
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 62570,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 62570,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 131337,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 76809,
+      "type": "VEC3",
+      "max": [
+        7.0467000007629395,
+        3.1512999534606934,
+        0.0
+      ],
+      "min": [
+        -7.0467000007629395,
+        -3.1512999534606934,
+        -9.939900398254395
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 76809,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 76809,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 273648,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 262674,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 65667,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 1094592,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 136824,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 1641888,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 68412,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "The dragon model is copyright 1996 Stanford University.  Cloth backdrop CC0 by Adobe Inc.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 750840
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 750840,
+      "byteLength": 750840
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1501680,
+      "byteLength": 500560
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2002240,
+      "byteLength": 921708
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2923948,
+      "byteLength": 921708
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3845656,
+      "byteLength": 614472
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4460128,
+      "byteLength": 394008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4854136,
+      "byteLength": 1915536,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "DragonAttenuationLOD.bin",
+      "byteLength": 6769672
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_transmission",
+    "KHR_materials_volume",
+    "KHR_materials_variants",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "checkerboard.png",
+      "mimeType": "image/png"
+    },
+    {
+      "uri": "Dragon_ThicknessMap.jpg",
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4934999942779541,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Cloth Backdrop"
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_volume": {
+          "attenuationColor": [
+            0.921,
+            0.64,
+            0.064
+          ],
+          "attenuationDistance": 0.155,
+          "thicknessFactor": 2.27,
+          "thicknessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Dragon with Attenuation"
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 2.27,
+          "thicknessTexture": {
+            "index": 1,
+            "texCoord": 0
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.921,
+          0.64,
+          0.064,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Dragon with Surface Coloring Only"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 8,
+                  "error": 0.002689
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Cloth Backdrop"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "KHR_materials_variants": {
+              "mappings": [
+                {
+                  "material": 1,
+                  "variants": [
+                    0
+                  ]
+                },
+                {
+                  "material": 2,
+                  "variants": [
+                    1
+                  ]
+                }
+              ]
+            },
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 9,
+                  "error": 0.021208
+                },
+                {
+                  "indices": 10,
+                  "error": 0.059974
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Dragon"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        -0.15470129251480103,
+        -0.841584324836731,
+        -0.1703687310218811
+      ],
+      "scale": [
+        3.5,
+        3.5,
+        3.5
+      ],
+      "name": "Cloth Backdrop"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071068286895752
+      ],
+      "translation": [
+        0.0,
+        -0.7306479811668396,
+        0.0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "name": "Dragon"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

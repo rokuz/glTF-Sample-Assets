@@ -1,0 +1,219 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 406,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 406,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 406,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 406,
+      "type": "VEC3",
+      "max": [
+        0.02128091,
+        0.06284806,
+        0.0138090011
+      ],
+      "min": [
+        -0.02128091,
+        -4.773855e-05,
+        -0.013809
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 2046,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 4092,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1020,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 6132,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 510,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3248
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3248,
+      "byteLength": 4872
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8120,
+      "byteLength": 6496
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14616,
+      "byteLength": 4872
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19488,
+      "byteLength": 7152,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "AvocadoLOD.bin",
+      "byteLength": 26640
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "Avocado_baseColor.png"
+    },
+    {
+      "uri": "Avocado_roughnessMetallic.png"
+    },
+    {
+      "uri": "Avocado_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "scale": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "2256_Avocado_d"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 5,
+                  "error": 0.000535
+                },
+                {
+                  "indices": 6,
+                  "error": 0.001512
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 0
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Avocado"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "Avocado"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    },
+    {
+      "source": 2
+    }
+  ]
+}

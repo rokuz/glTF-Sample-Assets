@@ -1,0 +1,322 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 345600,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58081,
+      "type": "VEC3",
+      "max": [
+        0.0447657481,
+        0.0404023454,
+        0.022842247
+      ],
+      "min": [
+        -0.02736334,
+        9.99381155e-05,
+        -0.04848177
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58081,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 696972,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58081,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 58081,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 691200,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 172800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1036800,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 86400,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1393944,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1393944,
+      "byteLength": 929296,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2323240,
+      "byteLength": 464648,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2787888,
+      "byteLength": 1209600,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "SheenClothLOD.bin",
+      "byteLength": 3997488
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_texture_transform",
+    "KHR_materials_sheen",
+    "NG2_mesh_lod"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_transform"
+  ],
+  "images": [
+    {
+      "uri": "technicalFabricSmall_normal_256.png"
+    },
+    {
+      "uri": "technicalFabricSmall_orm_256.png"
+    },
+    {
+      "uri": "technicalFabricSmall_basecolor_256.png"
+    },
+    {
+      "uri": "technicalFabricSmall_sheen_256.png"
+    },
+    {
+      "uri": "SheenCloth_AO.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sheenRoughnessFactor": 1.0,
+          "sheenColorTexture": {
+            "index": 3,
+            "extensions": {
+              "KHR_texture_transform": {
+                "scale": [
+                  30.0,
+                  -30.0
+                ]
+              }
+            }
+          },
+          "sheenRoughnessTexture": {
+            "index": 3,
+            "extensions": {
+              "KHR_texture_transform": {
+                "scale": [
+                  30.0,
+                  -30.0
+                ]
+              }
+            }
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "extensions": {
+            "KHR_texture_transform": {
+              "scale": [
+                30.0,
+                -30.0
+              ]
+            }
+          },
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "extensions": {
+            "KHR_texture_transform": {
+              "scale": [
+                30.0,
+                -30.0
+              ]
+            }
+          },
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "scale": [
+              30.0,
+              -30.0
+            ]
+          }
+        },
+        "index": 0,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "scale": [
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "index": 4,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "SheenClothMat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 5,
+                  "error": 2.4e-05
+                },
+                {
+                  "indices": 6,
+                  "error": 5.2e-05
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 3,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "SheenCloth_mesh"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "SheenCloth_mesh"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "technicalFabricSmall_normal_256.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "technicalFabricSmall_orm_256.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "technicalFabricSmall_basecolor_256.png"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "technicalFabricSmall_sheen_256.png"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "SheenCloth_AO.jpg"
+    }
+  ]
+}

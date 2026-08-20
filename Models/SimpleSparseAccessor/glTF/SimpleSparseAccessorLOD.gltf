@@ -1,0 +1,101 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14,
+      "type": "VEC3",
+      "sparse": {
+        "count": 3,
+        "indices": {
+          "bufferView": 2,
+          "byteOffset": 0,
+          "componentType": 5123
+        },
+        "values": {
+          "bufferView": 3,
+          "byteOffset": 0
+        }
+      },
+      "max": [
+        6.0,
+        4.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 168
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 168,
+      "byteLength": 6
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 176,
+      "byteLength": 36
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 212,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "SimpleSparseAccessorLOD.bin",
+      "byteLength": 284
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 18,
+      "type": "VEC3",
+      "max": [
+        4.2775726318359375,
+        1.9702579975128174,
+        2.4286481448143604e-07
+      ],
+      "min": [
+        -0.44272422790527344,
+        1.0702580213546753,
+        -6.76757849760179e-08
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 18,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 18,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 18,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 10,
+      "type": "VEC3",
+      "max": [
+        5.1616740226745605,
+        4.453539848327637,
+        -0.0999990850687027
+      ],
+      "min": [
+        -5.1616740226745605,
+        -4.453539848327637,
+        -0.1500011384487152
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 10,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 12,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 40,
+      "type": "VEC3",
+      "max": [
+        4.690432071685791,
+        3.8865346908569336,
+        3.400303967282525e-07
+      ],
+      "min": [
+        -4.51768159866333,
+        -3.858168363571167,
+        -2.2635157748140955e-08
+      ]
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 40,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 40,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 60,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 30,
+      "type": "VEC3",
+      "max": [
+        4.2775726318359375,
+        3.129955768585205,
+        0.10000012814998627
+      ],
+      "min": [
+        -0.44272422790527344,
+        2.2299556732177734,
+        -6.76757849760179e-08
+      ]
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 30,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 30,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 30,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        2.342724084854126,
+        0.4500000476837158,
+        7.450580596923828e-08
+      ],
+      "min": [
+        -0.45000001788139343,
+        -0.44999992847442627,
+        -7.450580596923828e-08
+      ]
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 12,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 642,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.4999999701976776
+      ],
+      "min": [
+        -0.4999999701976776,
+        -0.5,
+        -0.4999999701976776
+      ]
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 642,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 7680,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 11520,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 960,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "CC-BY 4.0 Copyright 2023 Analytical Graphics, Inc. Model and Textures by Ed Mackey.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 216,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 216,
+      "byteLength": 216,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 432,
+      "byteLength": 144,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 696,
+      "byteLength": 120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 816,
+      "byteLength": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1296,
+      "byteLength": 480,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1776,
+      "byteLength": 320,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2096,
+      "byteLength": 360,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2456,
+      "byteLength": 360,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2816,
+      "byteLength": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3056,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3152,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3248,
+      "byteLength": 64,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3312,
+      "byteLength": 7704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11016,
+      "byteLength": 7704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18720,
+      "byteLength": 36,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18756,
+      "byteLength": 24,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18780,
+      "byteLength": 120,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18900,
+      "byteLength": 60,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18960,
+      "byteLength": 24,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18984,
+      "byteLength": 13440,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "NegativeScaleTestLOD.bin",
+      "byteLength": 32424
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "CheckAndX.png",
+      "mimeType": "image/png",
+      "name": "CheckAndX"
+    },
+    {
+      "uri": "NegativeScaleLabels2.png",
+      "mimeType": "image/png",
+      "name": "NegativeScaleLabels2"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8999999761581421,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "ChecksAndXMaterial"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0891927033662796,
+          0.17925620079040527,
+          0.6399999856948853,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8999999761581421
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "BackgroundMaterial"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "LabelMat"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "Not So Shiny"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "So Shiny"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.004000000189989805,
+          0.00800000037997961,
+          0.019999999552965164,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "Dark"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "NegativeScaleBackMesh"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          },
+          "indices": 6,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "BackgroundMesh"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 10,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "LabelMesh"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "PositiveScaleTestMesh"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TEXCOORD_0": 17
+          },
+          "indices": 18,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "NegativeScaleFrontMesh"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 22,
+                  "error": 0.008031
+                },
+                {
+                  "indices": 23,
+                  "error": 0.013239
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20
+          },
+          "indices": 21,
+          "mode": 4,
+          "material": 3
+        }
+      ],
+      "name": "Icosphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 22,
+                  "error": 0.008031
+                },
+                {
+                  "indices": 23,
+                  "error": 0.013239
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20
+          },
+          "indices": 21,
+          "mode": 4,
+          "material": 4
+        }
+      ],
+      "name": "Icosphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 22,
+                  "error": 0.008031
+                },
+                {
+                  "indices": 23,
+                  "error": 0.013239
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 20
+          },
+          "indices": 21,
+          "mode": 4,
+          "material": 5
+        }
+      ],
+      "name": "Icosphere"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "NegativeScaleBack"
+    },
+    {
+      "mesh": 1,
+      "name": "BackgroundMesh"
+    },
+    {
+      "mesh": 2,
+      "name": "Labels"
+    },
+    {
+      "mesh": 3,
+      "name": "PositiveScaleTest"
+    },
+    {
+      "mesh": 4,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.007275789976119995,
+        1.5202581882476807,
+        0.10000006854534149
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0000001192092896
+      ],
+      "name": "NegativeScaleFront"
+    },
+    {
+      "mesh": 5,
+      "name": "NotShiny1"
+    },
+    {
+      "mesh": 5,
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "translation": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "NotShinyMinus1"
+    },
+    {
+      "translation": [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      "children": [
+        5,
+        6
+      ],
+      "name": "Not Shiny Parent"
+    },
+    {
+      "mesh": 6,
+      "name": "Shiny1"
+    },
+    {
+      "mesh": 6,
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "translation": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "ShinyMinus1"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "translation": [
+        1.0,
+        -3.5,
+        0.0
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "children": [
+        8,
+        9
+      ],
+      "name": "Shiny Parent"
+    },
+    {
+      "mesh": 7,
+      "name": "Dark1"
+    },
+    {
+      "mesh": 7,
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "translation": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "DarkMinus1"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "translation": [
+        1.0,
+        -2.25,
+        0.0
+      ],
+      "scale": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "children": [
+        11,
+        12
+      ],
+      "name": "Dark Parent"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        13
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "color": [
+            0.9,
+            0.8,
+            0.1
+          ],
+          "intensity": 1,
+          "type": "directional",
+          "name": "Sun"
+        }
+      ]
+    }
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3",
+      "max": [
+        0.07231424003839493,
+        0.07234788686037064,
+        0.07233947515487671
+      ],
+      "min": [
+        -0.07234788686037064,
+        -0.07234788686037064,
+        -0.07233947515487671
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 31800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3",
+      "max": [
+        0.07231424003839493,
+        0.07234788686037064,
+        0.07233947515487671
+      ],
+      "min": [
+        -0.07234788686037064,
+        -0.07234788686037064,
+        -0.07233947515487671
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3",
+      "max": [
+        0.07231424003839493,
+        0.07234788686037064,
+        0.07233947515487671
+      ],
+      "min": [
+        -0.07234788686037064,
+        -0.07234788686037064,
+        -0.07233947515487671
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 63600,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 15900,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 95400,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 7950,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 64488
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64488,
+      "byteLength": 64488
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128976,
+      "byteLength": 64488
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 193464,
+      "byteLength": 64488
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 257952,
+      "byteLength": 64488
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 322440,
+      "byteLength": 64488
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 386928,
+      "byteLength": 111300,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "DirectionalLightLOD.bin",
+      "byteLength": 498228
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.777,
+        "yfov": 0.65,
+        "zfar": 5.0,
+        "znear": 0.3
+      },
+      "type": "perspective",
+      "name": "Generated Camera"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_lights_punctual",
+    "NG2_mesh_lod"
+  ],
+  "extensionsRequired": [
+    "KHR_lights_punctual"
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.6,
+          0.6,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "mat_0.001"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.6,
+          0.6,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.16
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "mat_1.001"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.6,
+          0.6,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.33
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "mat_2.001"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 7,
+                  "error": 0.000154
+                },
+                {
+                  "indices": 8,
+                  "error": 0.000223
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Sphere.098"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 7,
+                  "error": 0.000154
+                },
+                {
+                  "indices": 8,
+                  "error": 0.000223
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Sphere.099"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 7,
+                  "error": 0.000154
+                },
+                {
+                  "indices": 8,
+                  "error": 0.000223
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "Sphere.100"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        -0.6,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "name": "m0%_r0%"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "name": "m0%_r16%"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.6,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "name": "m0%_r33%"
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      },
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sun_Orientation"
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "camera": 0,
+      "name": "Generated Camera"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

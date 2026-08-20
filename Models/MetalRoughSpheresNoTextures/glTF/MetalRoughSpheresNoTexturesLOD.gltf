@@ -1,0 +1,7167 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3",
+      "max": [
+        0.00035,
+        0.00035,
+        0.0003499592999506232
+      ],
+      "min": [
+        -0.0003498372092681731,
+        -0.00035,
+        -0.00034995929995062326
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 64488,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 45,
+      "type": "VEC3",
+      "max": [
+        0.000296875,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        5.859375e-06,
+        0.0,
+        0.000130615234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 65028,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 82,
+      "type": "VEC3",
+      "max": [
+        0.0005615234375000001,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        0.000331298828125,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 66012,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 51,
+      "type": "VEC3",
+      "max": [
+        0.000864501953125,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        0.0006357421875,
+        0.0,
+        0.000130615234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 66624,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 92,
+      "type": "VEC3",
+      "max": [
+        0.001171142578125,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        0.0009353027343750001,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 67728,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 19,
+      "type": "VEC3",
+      "max": [
+        0.001455078125,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        0.001245849609375,
+        0.0,
+        0.00010986328125
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 67956,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 35,
+      "type": "VEC3",
+      "max": [
+        -0.0024189453125,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        -0.002689208984375,
+        0.0,
+        0.000130615234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 68376,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3",
+      "max": [
+        -0.0021357421875,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        -0.002364990234375,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 69408,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 61,
+      "type": "VEC3",
+      "max": [
+        -0.0018291015625,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        -0.0020739746093750002,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 70140,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        -0.0015456542968750003,
+        0.0,
+        0.00028955078125
+      ],
+      "min": [
+        -0.0017548828125000004,
+        0.0,
+        0.00026025390625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 70188,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 72,
+      "type": "VEC3",
+      "max": [
+        -0.00120361328125,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        -0.0014951171875000001,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 71052,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 82,
+      "type": "VEC3",
+      "max": [
+        -0.000938720703125,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        -0.0011689453125,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 72036,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 51,
+      "type": "VEC3",
+      "max": [
+        -0.0006357421875000001,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        -0.0008645019531250001,
+        0.0,
+        0.000130615234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 72648,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 92,
+      "type": "VEC3",
+      "max": [
+        -0.0003291015625,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        -0.00056494140625,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 73752,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 19,
+      "type": "VEC3",
+      "max": [
+        -4.5166015625e-05,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        -0.00025439453125,
+        0.0,
+        0.00010986328125
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 73980,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 119,
+      "type": "VEC3",
+      "max": [
+        0.0002548828125,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        4.5166015625e-05,
+        0.0,
+        0.0001240234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 75408,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 72,
+      "type": "VEC3",
+      "max": [
+        0.0005966796875,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        0.00030517578125,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 76272,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3",
+      "max": [
+        0.0008647460937500001,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        0.000635498046875,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 77304,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3",
+      "max": [
+        0.001164794921875,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        0.0009355468750000002,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 78336,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 51,
+      "type": "VEC3",
+      "max": [
+        0.0014645996093750001,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        0.00123583984375,
+        0.0,
+        0.000130615234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 78948,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 61,
+      "type": "VEC3",
+      "max": [
+        0.0017768554687500001,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        0.00152099609375,
+        0.0,
+        0.00010986328125
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 79680,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 80,
+      "type": "VEC3",
+      "max": [
+        -0.001203857421875,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        -0.001478759765625,
+        0.0,
+        0.000130615234375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 80640,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3",
+      "max": [
+        -0.0009355468750000001,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        -0.001164794921875,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 81672,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC3",
+      "max": [
+        -0.0006284179687500001,
+        0.0,
+        0.00042431640625
+      ],
+      "min": [
+        -0.0008779296875000001,
+        0.0,
+        0.000204833984375
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 82272,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 96,
+      "type": "VEC3",
+      "max": [
+        -0.0003193359375,
+        0.0,
+        0.000510498046875
+      ],
+      "min": [
+        -0.000569580078125,
+        0.0,
+        0.000197509765625
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 83424,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 61,
+      "type": "VEC3",
+      "max": [
+        -2.34375e-05,
+        0.0,
+        0.000416259765625
+      ],
+      "min": [
+        -0.00027929687500000003,
+        0.0,
+        0.00010986328125
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 5374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 64488,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 45,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 65028,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 82,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 66012,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 51,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 66624,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 92,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 67728,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 19,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 67956,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 35,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 68376,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 69408,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 61,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 70140,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 70188,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 72,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 71052,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 82,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 72036,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 51,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 72648,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 92,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 73752,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 19,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 73980,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 119,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 75408,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 72,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 76272,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 77304,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 78336,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 51,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 78948,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 61,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 79680,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 80,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 80640,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 86,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 81672,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 50,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 82272,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 96,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 83424,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 61,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 31800,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 129,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 246,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 147,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 276,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 51,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 99,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 258,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 177,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 210,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 246,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 147,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 276,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 51,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 351,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 210,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 258,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 258,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 147,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 177,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 240,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 258,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 144,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 288,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 177,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 63600,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 15900,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 95400,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 7950,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 84156,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 84156,
+      "byteLength": 84156,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 168312,
+      "byteLength": 111300,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 279612,
+      "byteLength": 258,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 279872,
+      "byteLength": 492,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 280364,
+      "byteLength": 294,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 280660,
+      "byteLength": 552,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 281212,
+      "byteLength": 102,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 281316,
+      "byteLength": 198,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 281516,
+      "byteLength": 516,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 282032,
+      "byteLength": 354,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 282388,
+      "byteLength": 12,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 282400,
+      "byteLength": 420,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 282820,
+      "byteLength": 492,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 283312,
+      "byteLength": 294,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 283608,
+      "byteLength": 552,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 284160,
+      "byteLength": 102,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 284264,
+      "byteLength": 702,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 284968,
+      "byteLength": 420,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 285388,
+      "byteLength": 516,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 285904,
+      "byteLength": 516,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 286420,
+      "byteLength": 294,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 286716,
+      "byteLength": 354,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 287072,
+      "byteLength": 480,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 287552,
+      "byteLength": 516,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288068,
+      "byteLength": 288,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288356,
+      "byteLength": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288932,
+      "byteLength": 354,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "MetalRoughSpheresNoTexturesLOD.bin",
+      "byteLength": 289286
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_0"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_1"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_2"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_3"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_4"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_5"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_6"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_7"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_8"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_9"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_10"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_11"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_12"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_13"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_14"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_15"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_16"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_17"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_18"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_19"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_20"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_21"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_22"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_23"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_24"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_25"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_26"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_27"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_28"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_29"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_30"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_31"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_32"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_33"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_34"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_35"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_36"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_37"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_38"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_39"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_40"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_41"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_42"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_43"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_44"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_45"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_46"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_47"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038269996643066,
+          0.6038269996643066,
+          0.6038269996643066,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_48"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_49"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_50"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_51"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_52"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_53"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_54"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_55"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_56"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_57"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_58"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_59"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_60"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_61"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.1666666716337204,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_62"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_63"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_64"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_65"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_66"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_67"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_68"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.3333333432674408,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_69"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_70"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_71"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_72"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_73"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_74"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_75"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.5,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_76"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_77"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_78"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_79"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_80"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_81"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_82"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.6666666865348816,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_83"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_84"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_85"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_86"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_87"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_88"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_89"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 0.8333333134651184,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_90"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_91"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.1666666716337204
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_92"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.3333333432674408
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_93"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_94"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.6666666865348816
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_95"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 0.8333333134651184
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_96"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274168968201,
+          0.4396572411060333,
+          0.01228648703545332,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "mat_97"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 3
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 4
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 5
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 6
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 7
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 8
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 9
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 10
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 11
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 12
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 13
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 14
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 15
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 16
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 17
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 18
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 19
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 20
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 21
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 22
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 23
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 24
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 25
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 26
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 27
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 28
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 29
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 30
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 31
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 32
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 33
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 34
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 35
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 36
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 37
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 38
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 39
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 40
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 41
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 42
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 43
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 44
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 45
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 46
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 47
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 48
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 49
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 50
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 51
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 52
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 53
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 54
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 55
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 56
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 57
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 58
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 59
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 60
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 61
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 62
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 63
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 64
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 65
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 66
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 67
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 68
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 69
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 70
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 71
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 72
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 73
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 74
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 75
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 76
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 77
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 78
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 79
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 80
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 81
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 82
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 83
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 84
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 85
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 86
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 87
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 88
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 89
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 90
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 91
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 92
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 93
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 94
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 95
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 96
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 78,
+                  "error": 1e-06
+                },
+                {
+                  "indices": 79,
+                  "error": 1e-06
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 26
+          },
+          "indices": 52,
+          "mode": 4,
+          "material": 97
+        }
+      ],
+      "name": "Sphere"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 27
+          },
+          "indices": 53,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 2,
+            "NORMAL": 28
+          },
+          "indices": 54,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 29
+          },
+          "indices": 55,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 30
+          },
+          "indices": 56,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 31
+          },
+          "indices": 57,
+          "mode": 4
+        }
+      ],
+      "name": "Metal"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 32
+          },
+          "indices": 58,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 33
+          },
+          "indices": 59,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 34
+          },
+          "indices": 60,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 35
+          },
+          "indices": 61,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 36
+          },
+          "indices": 62,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 37
+          },
+          "indices": 63,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 38
+          },
+          "indices": 64,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 39
+          },
+          "indices": 65,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 14,
+            "NORMAL": 40
+          },
+          "indices": 66,
+          "mode": 4
+        }
+      ],
+      "name": "Non-metal"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 41
+          },
+          "indices": 67,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 42
+          },
+          "indices": 68,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 43
+          },
+          "indices": 69,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 44
+          },
+          "indices": 70,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 19,
+            "NORMAL": 45
+          },
+          "indices": 71,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 46
+          },
+          "indices": 72,
+          "mode": 4
+        }
+      ],
+      "name": "Smooth"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 47
+          },
+          "indices": 73,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 22,
+            "NORMAL": 48
+          },
+          "indices": 74,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 23,
+            "NORMAL": 49
+          },
+          "indices": 75,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 50
+          },
+          "indices": 76,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 51
+          },
+          "indices": 77,
+          "mode": 4
+        }
+      ],
+      "name": "Rough"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        9,
+        17,
+        25,
+        33,
+        41,
+        49
+      ],
+      "name": "Gray Spheres"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "name": "m0%"
+    },
+    {
+      "mesh": 0,
+      "name": "m0%_r0%"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.001,
+        0.0,
+        0.0
+      ],
+      "name": "m0%_r16%"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        0.002,
+        0.0,
+        0.0
+      ],
+      "name": "m0%_r33%"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0.003,
+        0.0,
+        0.0
+      ],
+      "name": "m0%_r50%"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        0.004,
+        0.0,
+        0.0
+      ],
+      "name": "m0%_r66%"
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        0.005,
+        0.0,
+        0.0
+      ],
+      "name": "m0%_r83%"
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        0.006,
+        0.0,
+        0.0
+      ],
+      "name": "m0%_r100%"
+    },
+    {
+      "children": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "name": "m16%"
+    },
+    {
+      "mesh": 7,
+      "translation": [
+        0.0,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r0%"
+    },
+    {
+      "mesh": 8,
+      "translation": [
+        0.001,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r16%"
+    },
+    {
+      "mesh": 9,
+      "translation": [
+        0.002,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r33%"
+    },
+    {
+      "mesh": 10,
+      "translation": [
+        0.003,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r50%"
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        0.004,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r66%"
+    },
+    {
+      "mesh": 12,
+      "translation": [
+        0.005,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r83%"
+    },
+    {
+      "mesh": 13,
+      "translation": [
+        0.006,
+        0.001,
+        0.0
+      ],
+      "name": "m16%_r100%"
+    },
+    {
+      "children": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "name": "m33%"
+    },
+    {
+      "mesh": 14,
+      "translation": [
+        0.0,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r0%"
+    },
+    {
+      "mesh": 15,
+      "translation": [
+        0.001,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r16%"
+    },
+    {
+      "mesh": 16,
+      "translation": [
+        0.002,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r33%"
+    },
+    {
+      "mesh": 17,
+      "translation": [
+        0.003,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r50%"
+    },
+    {
+      "mesh": 18,
+      "translation": [
+        0.004,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r66%"
+    },
+    {
+      "mesh": 19,
+      "translation": [
+        0.005,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r83%"
+    },
+    {
+      "mesh": 20,
+      "translation": [
+        0.006,
+        0.002,
+        0.0
+      ],
+      "name": "m33%_r100%"
+    },
+    {
+      "children": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "name": "m50%"
+    },
+    {
+      "mesh": 21,
+      "translation": [
+        0.0,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r0%"
+    },
+    {
+      "mesh": 22,
+      "translation": [
+        0.001,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r16%"
+    },
+    {
+      "mesh": 23,
+      "translation": [
+        0.002,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r33%"
+    },
+    {
+      "mesh": 24,
+      "translation": [
+        0.003,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r50%"
+    },
+    {
+      "mesh": 25,
+      "translation": [
+        0.004,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r66%"
+    },
+    {
+      "mesh": 26,
+      "translation": [
+        0.005,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r83%"
+    },
+    {
+      "mesh": 27,
+      "translation": [
+        0.006,
+        0.003,
+        0.0
+      ],
+      "name": "m50%_r100%"
+    },
+    {
+      "children": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "name": "m66%"
+    },
+    {
+      "mesh": 28,
+      "translation": [
+        0.0,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r0%"
+    },
+    {
+      "mesh": 29,
+      "translation": [
+        0.001,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r16%"
+    },
+    {
+      "mesh": 30,
+      "translation": [
+        0.002,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r33%"
+    },
+    {
+      "mesh": 31,
+      "translation": [
+        0.003,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r50%"
+    },
+    {
+      "mesh": 32,
+      "translation": [
+        0.004,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r66%"
+    },
+    {
+      "mesh": 33,
+      "translation": [
+        0.005,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r83%"
+    },
+    {
+      "mesh": 34,
+      "translation": [
+        0.006,
+        0.004,
+        0.0
+      ],
+      "name": "m66%_r100%"
+    },
+    {
+      "children": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "name": "m83%"
+    },
+    {
+      "mesh": 35,
+      "translation": [
+        0.0,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r0%"
+    },
+    {
+      "mesh": 36,
+      "translation": [
+        0.001,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r16%"
+    },
+    {
+      "mesh": 37,
+      "translation": [
+        0.002,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r33%"
+    },
+    {
+      "mesh": 38,
+      "translation": [
+        0.003,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r50%"
+    },
+    {
+      "mesh": 39,
+      "translation": [
+        0.004,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r66%"
+    },
+    {
+      "mesh": 40,
+      "translation": [
+        0.005,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r83%"
+    },
+    {
+      "mesh": 41,
+      "translation": [
+        0.006,
+        0.005,
+        0.0
+      ],
+      "name": "m83%_r100%"
+    },
+    {
+      "children": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "name": "m100%"
+    },
+    {
+      "mesh": 42,
+      "translation": [
+        0.0,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r0%"
+    },
+    {
+      "mesh": 43,
+      "translation": [
+        0.001,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r16%"
+    },
+    {
+      "mesh": 44,
+      "translation": [
+        0.002,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r33%"
+    },
+    {
+      "mesh": 45,
+      "translation": [
+        0.003,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r50%"
+    },
+    {
+      "mesh": 46,
+      "translation": [
+        0.004,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r66%"
+    },
+    {
+      "mesh": 47,
+      "translation": [
+        0.005,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r83%"
+    },
+    {
+      "mesh": 48,
+      "translation": [
+        0.006,
+        0.006,
+        0.0
+      ],
+      "name": "m100%_r100%"
+    },
+    {
+      "children": [
+        58,
+        66,
+        74,
+        82,
+        90,
+        98,
+        106
+      ],
+      "name": "Golden Spheres"
+    },
+    {
+      "children": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "name": "g_m0%"
+    },
+    {
+      "mesh": 49,
+      "translation": [
+        0.0,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r0%"
+    },
+    {
+      "mesh": 50,
+      "translation": [
+        0.001,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r16%"
+    },
+    {
+      "mesh": 51,
+      "translation": [
+        0.002,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r33%"
+    },
+    {
+      "mesh": 52,
+      "translation": [
+        0.003,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r50%"
+    },
+    {
+      "mesh": 53,
+      "translation": [
+        0.004,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r66%"
+    },
+    {
+      "mesh": 54,
+      "translation": [
+        0.005,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r83%"
+    },
+    {
+      "mesh": 55,
+      "translation": [
+        0.006,
+        0.0,
+        -0.003
+      ],
+      "name": "g_m0%_r100%"
+    },
+    {
+      "children": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "name": "g_m16%"
+    },
+    {
+      "mesh": 56,
+      "translation": [
+        0.0,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r0%"
+    },
+    {
+      "mesh": 57,
+      "translation": [
+        0.001,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r16%"
+    },
+    {
+      "mesh": 58,
+      "translation": [
+        0.002,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r33%"
+    },
+    {
+      "mesh": 59,
+      "translation": [
+        0.003,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r50%"
+    },
+    {
+      "mesh": 60,
+      "translation": [
+        0.004,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r66%"
+    },
+    {
+      "mesh": 61,
+      "translation": [
+        0.005,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r83%"
+    },
+    {
+      "mesh": 62,
+      "translation": [
+        0.006,
+        0.001,
+        -0.003
+      ],
+      "name": "g_m16%_r100%"
+    },
+    {
+      "children": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "name": "g_m33%"
+    },
+    {
+      "mesh": 63,
+      "translation": [
+        0.0,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r0%"
+    },
+    {
+      "mesh": 64,
+      "translation": [
+        0.001,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r16%"
+    },
+    {
+      "mesh": 65,
+      "translation": [
+        0.002,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r33%"
+    },
+    {
+      "mesh": 66,
+      "translation": [
+        0.003,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r50%"
+    },
+    {
+      "mesh": 67,
+      "translation": [
+        0.004,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r66%"
+    },
+    {
+      "mesh": 68,
+      "translation": [
+        0.005,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r83%"
+    },
+    {
+      "mesh": 69,
+      "translation": [
+        0.006,
+        0.002,
+        -0.003
+      ],
+      "name": "g_m33%_r100%"
+    },
+    {
+      "children": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "name": "g_m50%"
+    },
+    {
+      "mesh": 70,
+      "translation": [
+        0.0,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r0%"
+    },
+    {
+      "mesh": 71,
+      "translation": [
+        0.001,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r16%"
+    },
+    {
+      "mesh": 72,
+      "translation": [
+        0.002,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r33%"
+    },
+    {
+      "mesh": 73,
+      "translation": [
+        0.003,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r50%"
+    },
+    {
+      "mesh": 74,
+      "translation": [
+        0.004,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r66%"
+    },
+    {
+      "mesh": 75,
+      "translation": [
+        0.005,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r83%"
+    },
+    {
+      "mesh": 76,
+      "translation": [
+        0.006,
+        0.003,
+        -0.003
+      ],
+      "name": "g_m50%_r100%"
+    },
+    {
+      "children": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "name": "g_m66%"
+    },
+    {
+      "mesh": 77,
+      "translation": [
+        0.0,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r0%"
+    },
+    {
+      "mesh": 78,
+      "translation": [
+        0.001,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r16%"
+    },
+    {
+      "mesh": 79,
+      "translation": [
+        0.002,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r33%"
+    },
+    {
+      "mesh": 80,
+      "translation": [
+        0.003,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r50%"
+    },
+    {
+      "mesh": 81,
+      "translation": [
+        0.004,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r66%"
+    },
+    {
+      "mesh": 82,
+      "translation": [
+        0.005,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r83%"
+    },
+    {
+      "mesh": 83,
+      "translation": [
+        0.006,
+        0.004,
+        -0.003
+      ],
+      "name": "g_m66%_r100%"
+    },
+    {
+      "children": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "name": "g_m83%"
+    },
+    {
+      "mesh": 84,
+      "translation": [
+        0.0,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r0%"
+    },
+    {
+      "mesh": 85,
+      "translation": [
+        0.001,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r16%"
+    },
+    {
+      "mesh": 86,
+      "translation": [
+        0.002,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r33%"
+    },
+    {
+      "mesh": 87,
+      "translation": [
+        0.003,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r50%"
+    },
+    {
+      "mesh": 88,
+      "translation": [
+        0.004,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r66%"
+    },
+    {
+      "mesh": 89,
+      "translation": [
+        0.005,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r83%"
+    },
+    {
+      "mesh": 90,
+      "translation": [
+        0.006,
+        0.005,
+        -0.003
+      ],
+      "name": "g_m83%_r100%"
+    },
+    {
+      "children": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ],
+      "name": "g_m100%"
+    },
+    {
+      "mesh": 91,
+      "translation": [
+        0.0,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r0%"
+    },
+    {
+      "mesh": 92,
+      "translation": [
+        0.001,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r16%"
+    },
+    {
+      "mesh": 93,
+      "translation": [
+        0.002,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r33%"
+    },
+    {
+      "mesh": 94,
+      "translation": [
+        0.003,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r50%"
+    },
+    {
+      "mesh": 95,
+      "translation": [
+        0.004,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r66%"
+    },
+    {
+      "mesh": 96,
+      "translation": [
+        0.005,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r83%"
+    },
+    {
+      "mesh": 97,
+      "translation": [
+        0.006,
+        0.006,
+        -0.003
+      ],
+      "name": "g_m100%_r100%"
+    },
+    {
+      "children": [
+        115,
+        116,
+        117,
+        118
+      ],
+      "name": "Labels"
+    },
+    {
+      "mesh": 98,
+      "rotation": [
+        -0.5,
+        0.5,
+        0.5,
+        -0.5
+      ],
+      "translation": [
+        -0.0005,
+        0.006500000000000001,
+        0.0
+      ],
+      "name": "Metal"
+    },
+    {
+      "mesh": 99,
+      "rotation": [
+        -0.5,
+        0.5,
+        0.5,
+        -0.5
+      ],
+      "translation": [
+        -0.0005,
+        -0.0005,
+        0.0
+      ],
+      "name": "Non-metal"
+    },
+    {
+      "mesh": 100,
+      "rotation": [
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.7071067811865475
+      ],
+      "translation": [
+        -0.0005,
+        -0.0005,
+        0.0
+      ],
+      "name": "Smooth"
+    },
+    {
+      "mesh": 101,
+      "rotation": [
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.7071067811865475
+      ],
+      "translation": [
+        0.006500000000000001,
+        -0.0005,
+        0.0
+      ],
+      "name": "Rough"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        57,
+        114
+      ]
+    }
+  ]
+}

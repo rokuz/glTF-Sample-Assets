@@ -1,0 +1,264 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 41832,
+      "type": "VEC3",
+      "max": [
+        12.011539459228516,
+        12.003253936767578,
+        7.793828010559082
+      ],
+      "min": [
+        -12.001585006713867,
+        -12.014426231384277,
+        0.0073468685150146484
+      ]
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 41832,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 41832,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 243840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 975360,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 121920,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1463040,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 60960,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "(c) 2023 Wayfair, material by Eric Chadwick, CC BY 4.0.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1338624,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1338624,
+      "byteLength": 1706880,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "SpecularSilkPoufLOD.bin",
+      "byteLength": 3045504
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular",
+    "KHR_materials_sheen",
+    "NG2_mesh_lod"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_specular",
+    "KHR_materials_sheen"
+  ],
+  "images": [
+    {
+      "uri": "SpecularSilkPouf_occlusion.png"
+    },
+    {
+      "uri": "SpecularSilkPouf_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            0.025,
+            0.03,
+            0.075
+          ],
+          "sheenRoughnessFactor": 0.6
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            10,
+            0.6,
+            0.0
+          ],
+          "specularFactor": 0.5
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.025,
+          0.03,
+          0.075,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.65
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.2
+      },
+      "occlusionTexture": {
+        "index": 0,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "shot silk"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 4,
+                  "error": 0.032642
+                },
+                {
+                  "indices": 5,
+                  "error": 0.089286
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "SpecularSilkPouf"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "matrix": [
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "SpecularSilkPouf"
+    },
+    {
+      "children": [
+        0
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -0.00012642154693603516,
+        -0.00018661046028137208,
+        -0.00014188814163208007,
+        1.0
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "SpecularSilkPouf_occlusion"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "SpecularSilkPouf_normal"
+    }
+  ]
+}

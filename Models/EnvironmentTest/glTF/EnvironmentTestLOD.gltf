@@ -1,0 +1,443 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4598,
+      "type": "VEC3",
+      "max": [
+        10.647041320800781,
+        1.6470409631729126,
+        0.6470409631729126
+      ],
+      "min": [
+        -10.647041320800781,
+        0.3529590368270874,
+        -0.6470409631729126
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4598,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4598,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 25344,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4598,
+      "type": "VEC3",
+      "max": [
+        10.647041320800781,
+        -0.3529590368270874,
+        0.6470409631729126
+      ],
+      "min": [
+        -10.647041320800781,
+        -1.6470409631729126,
+        -0.6470409631729126
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4598,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 101376,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 12672,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 152064,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 6336,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "2018 (c) Adobe Systems Inc.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 55176,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55176,
+      "byteLength": 55176,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 110352,
+      "byteLength": 36784,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 147136,
+      "byteLength": 55176,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 202312,
+      "byteLength": 36784,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 239096,
+      "byteLength": 177408,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "EnvironmentTestLOD.bin",
+      "byteLength": 416504
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.3333333730697632,
+        "yfov": 0.6024156808853149,
+        "zfar": 200.0,
+        "znear": 0.0010000000474974513
+      },
+      "type": "perspective",
+      "name": "render_camera"
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "EnvironmentTest_images/roughness_metallic_0.png",
+      "mimeType": "image/png",
+      "name": "tmp_image_pie_dc1e_1a22_fbf9roughness_map_roughness_tmp_image_pie_dc1e_1a22_fbf9metal_map_metallic_0"
+    },
+    {
+      "uri": "EnvironmentTest_images/roughness_metallic_1.png",
+      "mimeType": "image/png",
+      "name": "tmp_image_pie_b20b_ebb4_317droughness_map2_roughness_tmp_image_pie_b20b_ebb4_317dmetal_map2_metallic_1"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "metallicRoughnessTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "MetallicSpheresMat"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "DielectricSpheresMat"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "DielectricSpheresMat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 6,
+                  "error": 0.016841
+                },
+                {
+                  "indices": 7,
+                  "error": 0.027846
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "Metallic0_N3D"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 6,
+                  "error": 0.016841
+                },
+                {
+                  "indices": 7,
+                  "error": 0.027846
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 1,
+            "TEXCOORD_0": 5
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Dielectric0_N3D2"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 6,
+                  "error": 0.016841
+                },
+                {
+                  "indices": 7,
+                  "error": 0.027846
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 1,
+            "TEXCOORD_0": 5
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "Dielectric0_N3D"
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        0.9999533295631409,
+        3.16067598760128e-08,
+        0.009662099182605743,
+        0.0,
+        0.0014864075928926468,
+        0.9880954027175903,
+        -0.15383504331111908,
+        0.0,
+        -0.009547080844640732,
+        0.15384222567081451,
+        0.988049328327179,
+        0.0,
+        -0.7599077224731445,
+        7.708760738372803,
+        27.743375778198242,
+        1.0
+      ],
+      "camera": 0,
+      "name": "render_camera_n3d"
+    },
+    {
+      "name": "ground_plane_n3d"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.5564079284667969,
+        4.774584770202637,
+        -1.0962677001953125,
+        1.0
+      ],
+      "name": "ENV_Spheres"
+    },
+    {
+      "mesh": 0,
+      "name": "Metallic0"
+    },
+    {
+      "mesh": 1,
+      "name": "Dielectric0"
+    },
+    {
+      "mesh": 2,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.985867977142334,
+        0.0,
+        1.0
+      ],
+      "name": "Dielectric0-Black"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "tmp_image_pie_dc1e_1a22_fbf9roughness_map_roughness_tmp_image_pie_dc1e_1a22_fbf9metal_map_metallic_0_texture"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "tmp_image_pie_b20b_ebb4_317droughness_map2_roughness_tmp_image_pie_b20b_ebb4_317dmetal_map2_metallic_1_texture"
+    }
+  ]
+}

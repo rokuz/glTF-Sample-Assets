@@ -1,0 +1,124 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 4,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 48,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 48,
+      "byteLength": 12,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CamerasLOD.bin",
+      "byteLength": 60
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 1.0,
+        "yfov": 0.7,
+        "zfar": 100.0,
+        "znear": 0.01
+      },
+      "type": "perspective"
+    },
+    {
+      "orthographic": {
+        "xmag": 1.0,
+        "ymag": 1.0,
+        "zfar": 100.0,
+        "znear": 0.01
+      },
+      "type": "orthographic"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.383,
+        0.0,
+        0.0,
+        0.92375
+      ]
+    },
+    {
+      "translation": [
+        0.5,
+        0.5,
+        3.0
+      ],
+      "camera": 0
+    },
+    {
+      "translation": [
+        0.5,
+        0.5,
+        3.0
+      ],
+      "camera": 1
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

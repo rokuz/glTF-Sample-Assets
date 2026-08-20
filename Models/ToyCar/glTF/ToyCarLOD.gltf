@@ -1,0 +1,865 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 266511,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 66951,
+      "type": "VEC3",
+      "max": [
+        93.5376358,
+        189.744751,
+        -9.92424
+      ],
+      "min": [
+        -93.53764,
+        -194.049515,
+        -126.166245
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 803412,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 66951,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 66951,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 52815,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1606824,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8959,
+      "type": "VEC3",
+      "max": [
+        384.478271,
+        369.811462,
+        162.062759
+      ],
+      "min": [
+        -349.9509,
+        -369.811523,
+        -10.1260958
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1714332,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8959,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 535608,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 8959,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 7482,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1821840,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1519,
+      "type": "VEC3",
+      "max": [
+        57.41104,
+        91.125824,
+        -89.59808
+      ],
+      "min": [
+        -57.41105,
+        -93.18028,
+        -120.691849
+      ],
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1840068,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1519,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 607280,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 1519,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1066044,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 133251,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1599048,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 66627,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 105630,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 26403,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 158436,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 13203,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 14964,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 3738,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 22440,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 1866,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "copyright": "Public domain (CC0). Toy car model created by Guido Odendahl. Materials edited by Eric Chadwick.",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1858296,
+      "byteStride": 12,
+      "target": 34962,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1858296,
+      "byteLength": 619432,
+      "byteStride": 8,
+      "target": 34962,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2477728,
+      "byteLength": 1865556,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4343284,
+      "byteLength": 184842,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4528128,
+      "byteLength": 26172,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "ToyCarLOD.bin",
+      "byteLength": 4554300
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "yfov": 0.9,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera001"
+    },
+    {
+      "perspective": {
+        "yfov": 0.41,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera002"
+    },
+    {
+      "perspective": {
+        "yfov": 0.68,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera003"
+    },
+    {
+      "perspective": {
+        "yfov": 0.63,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera004"
+    },
+    {
+      "perspective": {
+        "yfov": 0.96,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera005"
+    },
+    {
+      "perspective": {
+        "yfov": 0.96,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera006"
+    },
+    {
+      "perspective": {
+        "yfov": 0.96,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera007"
+    },
+    {
+      "perspective": {
+        "yfov": 0.96,
+        "zfar": 2.0,
+        "znear": 0.001
+      },
+      "type": "perspective",
+      "name": "Camera008"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_texture_transform",
+    "KHR_materials_clearcoat",
+    "KHR_materials_transmission",
+    "KHR_materials_sheen",
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "ToyCar_normal.png"
+    },
+    {
+      "uri": "ToyCar_emissive.png"
+    },
+    {
+      "uri": "ToyCar_basecolor.png"
+    },
+    {
+      "uri": "ToyCar_occlusion_roughness_metallic.png"
+    },
+    {
+      "uri": "Fabric_normal.png"
+    },
+    {
+      "uri": "Fabric_occlusion.png"
+    },
+    {
+      "uri": "Fabric_baseColor.png"
+    },
+    {
+      "uri": "ToyCar_clearcoat.png"
+    }
+  ],
+  "materials": [
+    {
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1,
+          "clearcoatTexture": {
+            "index": 7,
+            "texCoord": 0
+          }
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "ToyCar"
+    },
+    {
+      "extensions": {
+        "KHR_materials_sheen": {
+          "sheenRoughnessFactor": 0.5,
+          "sheenColorFactor": [
+            1,
+            0,
+            0
+          ]
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.15,
+          0.15,
+          0.15,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
+                0,
+                0
+              ],
+              "scale": [
+                3,
+                3
+              ],
+              "texCoord": 0
+            }
+          },
+          "index": 6,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              0,
+              0
+            ],
+            "scale": [
+              3,
+              3
+            ],
+            "texCoord": 0
+          }
+        },
+        "index": 4,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1
+            ],
+            "texCoord": 0
+          }
+        },
+        "index": 5,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "Fabric"
+    },
+    {
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1
+        }
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3,
+          0.8,
+          0.3,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Glass"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 12,
+                  "error": 0.140536
+                },
+                {
+                  "indices": 13,
+                  "error": 0.530026
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "ToyCar"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 14,
+                  "error": 0.90226
+                },
+                {
+                  "indices": 15,
+                  "error": 2.006869
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ],
+      "name": "Fabric"
+    },
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 16,
+                  "error": 0.12288
+                },
+                {
+                  "indices": 17,
+                  "error": 0.484462
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 2
+        }
+      ],
+      "name": "Glass"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "scale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ],
+      "name": "ToyCar"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "scale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ],
+      "name": "Fabric"
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "scale": [
+        0.0001,
+        0.0001,
+        0.0001
+      ],
+      "name": "Glass"
+    },
+    {
+      "rotation": [
+        -0.330993533,
+        -0.274300218,
+        -0.101194724,
+        0.8971969
+      ],
+      "translation": [
+        -0.0169006381,
+        0.0253599286,
+        0.0302319955
+      ],
+      "scale": [
+        1.00000024,
+        1.0,
+        1.00000012
+      ],
+      "camera": 0,
+      "name": "Camera001"
+    },
+    {
+      "rotation": [
+        -0.12160936,
+        -0.2651013,
+        -0.03372518,
+        0.9559263
+      ],
+      "translation": [
+        -0.04332856,
+        0.0235993266,
+        0.0760967
+      ],
+      "scale": [
+        0.99999994,
+        1.00000036,
+        1.00000024
+      ],
+      "camera": 1,
+      "name": "Camera002"
+    },
+    {
+      "rotation": [
+        -0.103828281,
+        -0.298918,
+        -0.0327368826,
+        0.9480485
+      ],
+      "translation": [
+        -0.0121543175,
+        0.0101683857,
+        0.0269274339
+      ],
+      "scale": [
+        0.99999994,
+        1.00000012,
+        0.99999994
+      ],
+      "camera": 2,
+      "name": "Camera003"
+    },
+    {
+      "rotation": [
+        0.00262248516,
+        -0.333805561,
+        0.0009287149,
+        0.9426378
+      ],
+      "translation": [
+        -0.0391006,
+        -0.00724446634,
+        0.0497552231
+      ],
+      "scale": [
+        1.00000012,
+        1.00000024,
+        1.00000012
+      ],
+      "camera": 3,
+      "name": "Camera004"
+    },
+    {
+      "rotation": [
+        -0.0464569926,
+        -0.9334676,
+        -0.13119027,
+        0.330558747
+      ],
+      "translation": [
+        -0.00747511769,
+        0.0108056553,
+        -0.0208431184
+      ],
+      "scale": [
+        1.0,
+        0.99999994,
+        1.00000036
+      ],
+      "camera": 4,
+      "name": "Camera005"
+    },
+    {
+      "rotation": [
+        -0.118150666,
+        -0.881382942,
+        -0.307792783,
+        0.338331461
+      ],
+      "translation": [
+        -0.04173353,
+        0.027297115,
+        -0.04835121
+      ],
+      "scale": [
+        0.9999998,
+        0.999999762,
+        1.00000012
+      ],
+      "camera": 5,
+      "name": "Camera006"
+    },
+    {
+      "rotation": [
+        0.0496652424,
+        -0.9284824,
+        -0.134623677,
+        -0.3425349
+      ],
+      "translation": [
+        0.0137228724,
+        0.009173209,
+        -0.0244436264
+      ],
+      "scale": [
+        0.99999994,
+        1.00000012,
+        0.999999762
+      ],
+      "camera": 6,
+      "name": "Camera007"
+    },
+    {
+      "rotation": [
+        -0.21798256,
+        -0.300790727,
+        -0.07082678,
+        0.9257387
+      ],
+      "translation": [
+        -0.006532357,
+        0.0125829373,
+        0.0118280016
+      ],
+      "scale": [
+        1.0,
+        1.00000012,
+        0.99999994
+      ],
+      "camera": 7,
+      "name": "Camera008"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "ToyCar_normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "ToyCar_emissive.png"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "ToyCar_basecolor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "ToyCar_occlusion_roughness_metallic.png"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "Fabric_normal.png"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "Fabric_occlusion.png"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "Fabric_baseColor.png"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "ToyCar_clearcoat.png"
+    }
+  ]
+}

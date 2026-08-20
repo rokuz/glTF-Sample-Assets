@@ -1,0 +1,258 @@
+{
+  "accessors": [
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 46356,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14556,
+      "type": "VEC3",
+      "max": [
+        0.9424954056739807,
+        0.8128451108932495,
+        0.900973916053772
+      ],
+      "min": [
+        -0.9474585652351379,
+        -1.18715500831604,
+        -0.9009949564933777
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14556,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 14556,
+      "type": "VEC2",
+      "max": [
+        0.9999759793281555,
+        1.998665988445282
+      ],
+      "min": [
+        0.002448640065267682,
+        1.0005531199858524
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 92712,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 23178,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 139068,
+      "componentType": 5123,
+      "normalized": false,
+      "count": 13842,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "GDS lod baker 1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 174672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 174672,
+      "byteLength": 174672,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 349344,
+      "byteLength": 116448,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 465792,
+      "byteLength": 166752,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "DamagedHelmetLOD.bin",
+      "byteLength": 632544
+    }
+  ],
+  "extensionsUsed": [
+    "NG2_mesh_lod"
+  ],
+  "images": [
+    {
+      "uri": "Default_albedo.jpg"
+    },
+    {
+      "uri": "Default_metalRoughness.jpg"
+    },
+    {
+      "uri": "Default_emissive.jpg"
+    },
+    {
+      "uri": "Default_AO.jpg"
+    },
+    {
+      "uri": "Default_normal.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "metallicFactor": 1.0,
+        "roughnessFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 4,
+        "scale": 1.0
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 1.0
+      },
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2,
+        "texCoord": 0
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "name": "Material_MR"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "extensions": {
+            "NG2_mesh_lod": {
+              "levels": [
+                {
+                  "indices": 4,
+                  "error": 0.009756
+                },
+                {
+                  "indices": 5,
+                  "error": 0.098104
+                }
+              ]
+            }
+          },
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "mesh_helmet_LP_13930damagedHelmet"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068286895752,
+        0.0,
+        -0.0,
+        0.7071068286895752
+      ],
+      "name": "node_damagedHelmet_-6514"
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    }
+  ]
+}
